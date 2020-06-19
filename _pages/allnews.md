@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Hemang Chawla - Robotics | Vision | AI"
 sitemap: false
 permalink: /allnews.html
 ---
