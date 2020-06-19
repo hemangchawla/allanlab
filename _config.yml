@@ -41,3 +41,16 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+
