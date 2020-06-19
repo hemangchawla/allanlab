@@ -2,7 +2,14 @@
   <div class="panel-footer">
 	<div class="container-fluid">
 	  <div class="row">
-		<div class="col-sm-4">
+	    <div class="col-sm-4">
+	      {% if site.footer.links %}
+		{% for link in site.footer.links %}
+        	  {% if link.label and link.url %}
+          	    <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+		  {% endif %}
+      	        {% endfor %}
+	      {% endif %}
 			
 		  <p>&copy 2020 Hemang Chawla.</p>
             		  
