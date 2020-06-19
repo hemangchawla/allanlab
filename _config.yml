@@ -46,11 +46,11 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "twitter.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-square"
-      # url:
+      url: "linkedin.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "github.com"
 
