@@ -3,7 +3,7 @@
 <h4>News</h4>
 
 {% for article in site.data.news limit:9 %}
-<span style="color:blue">{{ article.date }}</span>
+<b>{{ article.date }}</b>
 <p>{{ article.headline }}</p>
 {% endfor %}
 
