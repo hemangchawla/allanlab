@@ -17,7 +17,7 @@
 			{% if site.footer.links %}
       			  {% for link in site.footer.links %}
         		    {% if link.label and link.url %}
-          		      <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon fa-lg | default: 'fa fa-link fa-lg' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          		      <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><span class="{{ link.icon fa-lg | default: 'fa fa-link fa-lg' }}"></i> {{ link.label }}</a></span>&nbsp
         		    {% endif %}
       			  {% endfor %}
     			{% endif %}
