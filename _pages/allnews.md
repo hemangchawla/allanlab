@@ -1,9 +1,9 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Hemang Chawla - Robotics | Vision | AI"
+excerpt: "Hemang Chawla -- News"
 sitemap: false
-permalink: /allnews.html
+permalink: /news.html
 ---
 
 # News
