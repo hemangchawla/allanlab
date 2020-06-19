@@ -46,11 +46,11 @@ footer:
   links:
     - label: "Linkedin"
       icon: "fa fa-linkedin-square"
-      url: "linkedin.com/hemangchawla"
+      url: "https://www.linkedin.com/in/hemangchawla/"
     - label: "GitHub"
       icon: "fa fa-github"
-      url: "github.com/hemangchawla"
+      url: "https://github.com/hemangchawla"
     - label: "Twitter"
       icon: "fa fa-twitter-square"
-      url: "twitter.com/ChawlaHemang"
+      url: "https://twitter.com/ChawlaHemang"
 
