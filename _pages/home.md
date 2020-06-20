@@ -5,7 +5,7 @@ excerpt: "Hemang Chawla -- Home"
 sitemap: false
 permalink: /
 ---
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" width="50%" height="50%" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <!--
     <ol class="carousel-indicators">
@@ -17,7 +17,7 @@ permalink: /
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/hemang.jpg" width="50%" height="50%" alt="Hemang Chawla 2020" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/hemang.jpg" alt="Hemang Chawla 2020" />
         </div>
     </div>
   <!--
