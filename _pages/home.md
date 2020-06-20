@@ -7,9 +7,11 @@ permalink: /
 ---
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
+    <!--
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
     </ol>
+    -->
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
