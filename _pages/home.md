@@ -17,7 +17,9 @@ permalink: /
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
+            <center>
             <img src="{{ site.url }}{{ site.baseurl }}/images/hemang.jpg" alt="Hemang Chawla 2020" />
+            </center>
         </div>
     </div>
   <!--
