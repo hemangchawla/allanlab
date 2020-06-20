@@ -1,13 +1,11 @@
 ---
 title: "Hemang Chawla - Home"
 layout: homelay
-excerpt: "Hemang Chawla - Robotics | Vision | AI"
+excerpt: "Hemang Chawla -- Home"
 sitemap: false
 permalink: /
 ---
 
-Robotics and Computer Vision Engineer with a Masters Degree focused on Bio-Robotics from TU Delft. Skilled in ROS, C++, with hands on experience in mobile manipulation planning and control. 
+Namaste, I am Hemang, and I am a Computer Vision Research Engineer at the [Advanced Research Lab, Navinfo Europe](https://www.navinfo.eu/artificial-intelligence.html). My research interests focus on the synergistic integration of 3D geometry with deep learning.  Within the AI Research lab, I have worked on semantic SLAM, 3D vision, and crowdsourced mapping. 
 
-Currently working on Simultaneous Localisation and Mapping for Self-Driving cars, paving the future of the automotive industry through AI and Machine Learning. 
-
-Very enthusiastic to learn new things. I am particularly interested in the fields of Robotics, Intelligent control, and Human Technology Interaction. 
+Prior to joining NavInfo, I worked on problems in path planning, control, and SLAM for healthcare and cleaning service robot startups. I have a postgraduate in [Robotics](https://tudelftroboticsinstitute.nl/) from [Delft University of Technology](https://www.tudelft.nl/), where I worked on mobile manipulation under [Dr. Martijn Wisse](https://scholar.google.nl/citations?hl=en&user=ddu5MKwAAAAJ). During my bachelors from [BITS Pilani](https://www.bits-pilani.ac.in/), I had the opportunity to work with [Dr. Bijay Rout](https://scholar.google.nl/citations?user=BH13o4YAAAAJ) at the [Center for Robotics and Intelligent Systems](https://www.bits-pilani.ac.in/pilani/centreforrobotics/Home). 
