@@ -1,6 +1,6 @@
 - title: "Robot Placement for Mobile Manipulation in Domestic Environments"
   image: robot_placement.png
-  description: "In order to utilize the navigation and manipulation capabilities of domestic mobile manipulators, robot placement algorithm that computes a favorable position and orientation of the mobile base is sought, which enables the end effector to reach a desired target. None of the existing approaches perform robot placement while ensuring a high chance of successful planning to target through a short path, while accounting for sensing and actuation errors typical in real world scenarios. This thesis presents a novel robot placement algorithm DeCOWA (Determining Commutation configuration using Optimization and Workspace Analysis) with these characteristics. "
+  description: "This thesis presents a novel robot placement algorithm DeCOWA (Determining Commutation configuration using Optimization and Workspace Analysis) for domestic mobile manipulators. It computes a favorable position and orientation of the mobile base enabling a high chance of successful planning to target through a short path, while accounting for sensing and actuation errors typical in real world scenarios. "
   authors: H Chawla
   link:
     url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe
