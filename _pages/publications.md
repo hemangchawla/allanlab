@@ -52,3 +52,12 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 {% endif %}
 
 <p> &nbsp; </p>
+
+## Full List
+
+{% for publi in site.data.publist %}
+
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+
+{% endfor %}
