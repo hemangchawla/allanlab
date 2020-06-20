@@ -18,7 +18,7 @@ permalink: /
 
         <div class="item active">
         <center>
-            <img src="{{ site.url }}{{ site.baseurl }}/images/hemang.jpg" width="50%" height="50%"  alt="Hemang Chawla 2020" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/hemang.jpg" width="70%" height="70%"  alt="Hemang Chawla 2020" />
             </center>
         </div>
     </div>
