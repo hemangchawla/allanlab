@@ -1,6 +1,6 @@
 ---
 title: "Hemang Chawla - Blog"
-layout: gridlay
+layout: textlay
 excerpt: "Hemang Chawla -- Blog."
 sitemap: false
 permalink: /blog/
