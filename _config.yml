@@ -45,12 +45,12 @@ kramdown:
 footer:
   links:
     - label: "Linkedin"
-      icon: "fa fa-linkedin-square"
+      icon: "fa fa-linkedin"
       url: "https://www.linkedin.com/in/hemangchawla/"
     - label: "GitHub"
       icon: "fa fa-github"
       url: "https://github.com/hemangchawla"
     - label: "Twitter"
-      icon: "fa fa-twitter-square"
+      icon: "fa fa-twitter"
       url: "https://twitter.com/ChawlaHemang"
 
