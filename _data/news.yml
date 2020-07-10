@@ -3,8 +3,12 @@
 
 # - date: 6. February 2020
 #   headline: "A first paper from the TBG collaboration (Geneva, ICFO) is online, including data from Tjerk.  <a href='https://arxiv.org/abs/2002.02289'>See Lisi, Lu, Benschop, de Jong et al.</a>!"
+
+- date: 09 Jul 2020
+  headline: "Paper on 'Monocular Vision based Crowdsourced 3D Traffic Sign Positioning with Unknown Camera Intrinsics and Distortion Coefficients' is now available on (<a href='https://arxiv.org/abs/2007.04592'>arxiv</a>)."  
+
 - date: 01 Jul 2020
-  headline: "Paper on synergistic integration of multi-view geometry and deep learning for Crowdsourced Mapping accepted at  IEEE/RSJ International Conference on Intelligent Robots and Systems (<a href='http://www.iros2020.org/'>IROS</a>) 2020 for Oral Presentation."
+  headline: "Paper on Synergistic Integration of Multi-View geometry and Deep learning for Crowdsourced Mapping accepted at  IEEE/RSJ International Conference on Intelligent Robots and Systems (<a href='http://www.iros2020.org/'>IROS</a>) 2020 for Oral Presentation."
 
 - date: 17 Jun 2020
   headline: "External Reviewer for the British Machine Vision Conference (<a href='https://bmvc2020.github.io/'>BMVC</a>) 2020."
