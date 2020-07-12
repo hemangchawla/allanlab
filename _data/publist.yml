@@ -6,6 +6,16 @@
     url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe
     display: TU Delft Repository
   highlight: 1
+
+- title: "Monocular Vision based Crowdsourced 3D Traffic Sign Positioning with Unknown  Camera  Intrinsics  and  Distortion  Coefficients"
+  image: ApproachSingleRun.pdf
+  description: "Autonomous  vehicles  and  driver  assistance  systems  utilize  maps  of  3D  semantic  landmarks  for  improved decision  making.  However,  scaling  the  mapping  process  aswell  as  regularly  updating  such  maps  come  with  a  huge  cost. Crowdsourced mapping of these landmarks such as traffic signpositions  provides  an  appealing  alternative.  The  state-of-the-art  approaches  to  crowdsourced  mapping  use  ground  truthcamera  parameters,  which  may  not  always  be  known  or  maychange  over  time.  In  this  work,  we  demonstrate  an  approachto  computing  3D  traffic  sign  positions  without  knowing  thecamera focal lengths, principal point, and distortion coefficientsa priori. We validate our proposed approach on a public datasetof traffic signs in KITTI. Using only a monocular color cameraand  GPS,  we  achieve  an  average  single  journey  relative  andabsolute positioning accuracy of 0.26 m and 1.38 m, respectively. "
+  authors: H Chawla, M Jukola, E Arani, B Zonooz
+  link:
+    url: https://arxiv.org/pdf/2007.04592.pdf
+    display: arxiv
+  highlight: 1
+
 # - title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
 #   image: TBG_ARPES.png
 #   description:
