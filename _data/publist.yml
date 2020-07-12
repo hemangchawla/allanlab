@@ -8,7 +8,7 @@
   highlight: 1
 
 - title: "Monocular Vision based Crowdsourced 3D Traffic Sign Positioning with Unknown  Camera  Intrinsics  and  Distortion  Coefficients"
-  image: ApproachSingleRun.pdf
+  image: ApproachSingleRun.png
   description: "Autonomous  vehicles  and  driver  assistance  systems  utilize  maps  of  3D  semantic  landmarks  for  improved decision  making.  However,  scaling  the  mapping  process  aswell  as  regularly  updating  such  maps  come  with  a  huge  cost. Crowdsourced mapping of these landmarks such as traffic signpositions  provides  an  appealing  alternative.  The  state-of-the-art  approaches  to  crowdsourced  mapping  use  ground  truthcamera  parameters,  which  may  not  always  be  known  or  maychange  over  time.  In  this  work,  we  demonstrate  an  approachto  computing  3D  traffic  sign  positions  without  knowing  thecamera focal lengths, principal point, and distortion coefficientsa priori. We validate our proposed approach on a public datasetof traffic signs in KITTI. Using only a monocular color cameraand  GPS,  we  achieve  an  average  single  journey  relative  andabsolute positioning accuracy of 0.26 m and 1.38 m, respectively. "
   authors: H Chawla, M Jukola, E Arani, B Zonooz
   link:
