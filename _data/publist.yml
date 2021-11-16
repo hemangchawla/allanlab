@@ -5,13 +5,13 @@
   link:
     url: https://ieeexplore.ieee.org/document/9561441
     display: Offical Proceedings
-  link:
+  link2:
     url: https://arxiv.org/pdf/2103.02451.pdf
     display: Arxiv
-  link:
+  link3:
     url: https://github.com/NeurAI-Lab/G2S
     display: Code
-    link:
+  link4:
     url: https://www.youtube.com/watch?v=tXThdmxRa38
     display: Video
   highlight: 1

@@ -28,6 +28,9 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <p style="text-align: justify">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+  <p><strong><a href="{{ publi.link2.url }}">{{ publi.link.display }}</a></strong></p>
+  <p><strong><a href="{{ publi.link3.url }}">{{ publi.link.display }}</a></strong></p>
+  <p><strong><a href="{{ publi.link4.url }}">{{ publi.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
  </div>
