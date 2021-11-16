@@ -4,35 +4,49 @@
   authors: H Chawla, A Varma, S Marzban, E Arani, B Zonooz
   link:
     url: https://ieeexplore.ieee.org/document/9561441
-    display: Offical Proceedings 
+    display: ICRA 2021
+  linkvideo:
+    url: https://youtu.be/R7rs0MtkpMw
+    display: Supplementary video
   linkopen:
     url: https://arxiv.org/pdf/2103.02451.pdf
-    display: Arxiv
+    display: arxiv
   linkcode:
     url: https://github.com/NeurAI-Lab/G2S
-    display: Code
-  linkvideo:
+    display: code
+  linkpres:
     url: https://www.youtube.com/watch?v=tXThdmxRa38
-    display: Video
+    display: presentation
   highlight: 1
 
 - title: "Practical Auto-Calibration for Spatial Scene-Understanding from Crowdsourced Dashcamera Videos"
   image: Autocalib.png
-  description: "Spatial scene-understanding, including dense depth and ego-motion estimation, is an important problem in computer vision for autonomous vehicles and advanced driver assistance systems. Thus, it is beneficial to design perception modules that can utilize crowdsourced videos collected from arbitrary vehicular onboard or dashboard cameras. However, the intrinsic parameters corresponding to such cameras are often unknown or change over time. Typical manual calibration approaches require objects such as a chessboard or additional scene-specific information. On the other hand, automatic camera calibration does not have such requirements. Yet, the automatic calibration of dashboard cameras is challenging as forward and planar navigation results in critical motion sequences with reconstruction ambiguities. Structure reconstruction of complete visual-sequences that may contain tens of thousands of images is also computationally untenable. Here, we propose a system for practical monocular onboard camera auto-calibration from crowdsourced videos. We show the effectiveness of our proposed system on the KITTI raw, Oxford RobotCar, and the crowdsourced D2-City datasets in varying conditions. Finally, we demonstrate its application for accurate monocular dense depth and ego-motion estimation on uncalibrated videos.  "
+  description: "Spatial scene-understanding, including dense depth and ego-motion estimation, is an important problem in computer vision for autonomous vehicles and advanced driver assistance systems. Thus, it is beneficial to design perception modules that can utilize crowdsourced videos collected from arbitrary vehicular onboard or dashboard cameras. However, the intrinsic parameters corresponding to such cameras are often unknown or change over time. Typical manual calibration approaches require objects such as a chessboard or additional scene-specific information. On the other hand, automatic camera calibration does not have such requirements. Yet, the automatic calibration of dashboard cameras is challenging as forward and planar navigation results in critical motion sequences with reconstruction ambiguities. Structure reconstruction of complete visual-sequences that may contain tens of thousands of images is also computationally untenable. Here, we propose a system for practical monocular onboard camera auto-calibration from crowdsourced videos. We show the effectiveness of our proposed system on the KITTI raw, Oxford RobotCar, and the crowdsourced D2-City datasets in varying conditions. Finally, we demonstrate its application for accurate monocular dense depth and ego-motion estimation on uncalibrated videos. "
   authors: H Chawla, M Jukola, S Marzban, E Arani, B Zonooz
   link:
+    url: https://www.scitepress.org/Papers/2021/102558/102558.pdf
+    display: VISAPP 2021
+  linkopen:
     url: https://arxiv.org/pdf/2012.08375.pdf
     display: arxiv
+  linkpres:
+    url: https://www.youtube.com/watch?v=mBnz-8zWGXM
+    display: presentation
   highlight: 1
-
 
 - title: "Crowdsourced 3D Mapping: A Combined Multi-View Geometry and Self-Supervised Learning Approach"
   image: 3D_positioning.png
   description: "The ability to efficiently utilize crowdsourced visual data carries immense potential for the domains of large scale dynamic mapping and autonomous driving. However, state-of-the-art methods for crowdsourced 3D mapping assume prior knowledge of camera intrinsics. In this work, we propose a framework that estimates the 3D positions of semantically meaningful landmarks such as traffic signs without assuming known camera intrinsics, using only monocular color camera and GPS. We utilize multi-view geometry as well as deep learning based self-calibration, depth, and ego-motion estimation for traffic sign positioning, and show that combining their strengths is important for increasing the map coverage. To facilitate research on this task, we construct and make available a KITTI based 3D traffic sign ground truth positioning dataset. Using our proposed framework, we achieve an average single-journey relative and absolute positioning accuracy of 39cm and 1.26m respectively, on this dataset. "
   authors: H Chawla, M Jukola, T. Brouns, E Arani, B Zonooz
   link:
+    url: https://ieeexplore.ieee.org/document/9341243
+    display: IROS 2020
+  linkopen:
     url: https://arxiv.org/pdf/2007.12918.pdf
     display: arxiv
+  linkpres:
+    url: https://www.youtube.com/watch?v=v45NsnfneIM
+    display: presentation
   highlight: 1
 
 
@@ -41,8 +55,14 @@
   description: "Autonomous  vehicles  and  driver  assistance  systems  utilize  maps  of  3D  semantic  landmarks  for  improved decision  making.  However,  scaling  the  mapping  process  aswell  as  regularly  updating  such  maps  come  with  a  huge  cost. Crowdsourced mapping of these landmarks such as traffic signpositions  provides  an  appealing  alternative.  The  state-of-the-art  approaches  to  crowdsourced  mapping  use  ground  truthcamera  parameters,  which  may  not  always  be  known  or  maychange  over  time.  In  this  work,  we  demonstrate  an  approachto  computing  3D  traffic  sign  positions  without  knowing  thecamera focal lengths, principal point, and distortion coefficientsa priori. We validate our proposed approach on a public datasetof traffic signs in KITTI. Using only a monocular color cameraand  GPS,  we  achieve  an  average  single  journey  relative  andabsolute positioning accuracy of 0.26 m and 1.38 m, respectively. "
   authors: H Chawla, M Jukola, E Arani, B Zonooz
   link:
+    url: https://ieeexplore.ieee.org/abstract/document/9294445
+    display: ITSC 2020
+  linkopen:
     url: https://arxiv.org/pdf/2007.04592.pdf
     display: arxiv
+  linkpres:
+    url: https://www.youtube.com/watch?v=JwwENRFXu9g
+    display: presentation
   highlight: 1
 
 - title: "Robot Placement for Mobile Manipulation in Domestic Environments"
@@ -52,6 +72,9 @@
   link:
     url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe
     display: TU Delft Repository
+  linkvideo:
+    url: https://youtu.be/Lxnm3e6EZ2c
+    display: video
   highlight: 1
 
 
