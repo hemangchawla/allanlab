@@ -28,11 +28,11 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <p style="text-align: justify">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p>
-  {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong>,&nbsp; {%- endif -%}
-  {%- if publi.linksupp -%}<strong><a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a></strong>,&nbsp; {%- endif -%}
-  {%- if publi.linkvideo -%}<strong><a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a></strong>,&nbsp; {%- endif -%}
-  {%- if publi.linkopen -%}<strong><a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a></strong>,&nbsp; {%- endif -%} 
-  {%- if publi.linkcode -%}<strong><a href="{{ publi.linkcode.url }}">{{ publi.linkcode.display }}</a></strong>,&nbsp; {%- endif -%} 
+  {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
+  {%- if publi.linksupp -%}<strong><a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a></strong><br/> {%- endif -%}
+  {%- if publi.linkvideo -%}<strong><a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a></strong><br/> {%- endif -%}
+  {%- if publi.linkopen -%}<strong><a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a></strong><br/> {%- endif -%} 
+  {%- if publi.linkcode -%}<strong><a href="{{ publi.linkcode.url }}">{{ publi.linkcode.display }}</a></strong><br/> {%- endif -%} 
   {%- if publi.linkpres -%}<strong><a href="{{ publi.linkpres.url }}">{{ publi.linkpres.display }}</a></strong>{%- endif -%}
   </p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
