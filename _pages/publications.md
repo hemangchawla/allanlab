@@ -28,9 +28,9 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <p style="text-align: justify">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <!--<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>-->
-  {% for link in publi.link %}
-   test
-  <br><strong><a href="{{ link.url }}">{{ link.display }}</a></strong>
+  {% for l in publi.link %}
+  test
+  <p><strong><a href="{{ l.url }}">{{ l.display }}</a></strong></p>
   {% endfor %}
   <!--<strong><a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a></strong><br>
   <strong><a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a></strong><br>
