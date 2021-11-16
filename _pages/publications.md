@@ -29,7 +29,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <p><em>{{ publi.authors }}</em></p>
   <!--<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>-->
   {% for l in publi.link %}
-  test
+  {{l}}
   <p><strong><a href="{{ l.url }}">{{ l.display }}</a></strong></p>
   {% endfor %}
   <!--<strong><a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a></strong><br>
