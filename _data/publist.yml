@@ -3,8 +3,17 @@
   description: "Dense depth estimation is essential to scene-understanding for autonomous driving. However, recent self-supervised approaches on monocular videos suffer from scale-inconsistency across long sequences. Utilizing data from the ubiquitously copresent global positioning systems (GPS), we tackle this challenge by proposing a dynamically-weighted GPS-to-Scale (g2s) loss to complement the appearance-based losses. We emphasize that the GPS is needed only during the multimodal training, and not at inference. The relative distance between frames captured through the GPS provides a scale signal that is independent of the camera setup and scene distribution, resulting in richer learned feature representations. Through extensive evaluation on multiple datasets, we demonstrate scale-consistent and -aware depth estimation during inference, improving the performance even when training with low-frequency GPS data."
   authors: H Chawla, A Varma, S Marzban, E Arani, B Zonooz
   link:
+    url: https://ieeexplore.ieee.org/document/9561441
+    display: IEEE (Proceedings)
+  link:
     url: https://arxiv.org/pdf/2103.02451.pdf
-    display: arxiv
+    display: Arxiv (Open access)
+  link:
+    url: https://github.com/NeurAI-Lab/G2S
+    display: Code
+    link:
+    url: https://www.youtube.com/watch?v=tXThdmxRa38
+    display: Video
   highlight: 1
 
 - title: "Practical Auto-Calibration for Spatial Scene-Understanding from Crowdsourced Dashcamera Videos"
