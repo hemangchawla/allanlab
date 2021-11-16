@@ -5,16 +5,16 @@
   link:
     url: https://ieeexplore.ieee.org/document/9561441
     display: ICRA 2021
-  linkvideo:
+  link:
     url: https://youtu.be/R7rs0MtkpMw
     display: Supplementary video
-  linkopen:
+  link:
     url: https://arxiv.org/pdf/2103.02451.pdf
     display: arxiv
-  linkcode:
+  link:
     url: https://github.com/NeurAI-Lab/G2S
     display: code
-  linkpres:
+  link:
     url: https://www.youtube.com/watch?v=tXThdmxRa38
     display: presentation
   highlight: 1
@@ -26,10 +26,10 @@
   link:
     url: https://www.scitepress.org/Papers/2021/102558/102558.pdf
     display: VISAPP 2021
-  linkopen:
+  link:
     url: https://arxiv.org/pdf/2012.08375.pdf
     display: arxiv
-  linkpres:
+  link:
     url: https://www.youtube.com/watch?v=mBnz-8zWGXM
     display: presentation
   highlight: 1
@@ -41,10 +41,10 @@
   link:
     url: https://ieeexplore.ieee.org/document/9341243
     display: IROS 2020
-  linkopen:
+  link:
     url: https://arxiv.org/pdf/2007.12918.pdf
     display: arxiv
-  linkpres:
+  link:
     url: https://www.youtube.com/watch?v=v45NsnfneIM
     display: presentation
   highlight: 1
@@ -57,10 +57,10 @@
   link:
     url: https://ieeexplore.ieee.org/abstract/document/9294445
     display: ITSC 2020
-  linkopen:
+  link:
     url: https://arxiv.org/pdf/2007.04592.pdf
     display: arxiv
-  linkpres:
+  link:
     url: https://www.youtube.com/watch?v=JwwENRFXu9g
     display: presentation
   highlight: 1
@@ -72,7 +72,7 @@
   link:
     url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe
     display: TU Delft Repository
-  linkvideo:
+  link:
     url: https://youtu.be/Lxnm3e6EZ2c
     display: video
   highlight: 1

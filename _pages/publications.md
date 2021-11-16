@@ -27,12 +27,15 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   <p style="text-align: justify">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br>
-  <strong><a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a></strong><br>
+  <!--<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>-->
+  {% for link in publi.link %}
+  <br><strong><a href="{{ link.url }}">{{ link.display }}</a></strong>
+  {% endfor %}
+  <!--<strong><a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a></strong><br>
   <strong><a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a></strong><br>
   <strong><a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a></strong><br> 
   <strong><a href="{{ publi.linkcode.url }}">{{ publi.linkcode.display }}</a></strong><br> 
-  <strong><a href="{{ publi.linkpres.url }}">{{ publi.linkpres.display }}</a></strong></p>
+  <strong><a href="{{ publi.linkpres.url }}">{{ publi.linkpres.display }}</a></strong></p>-->
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
  </div>
