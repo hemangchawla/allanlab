@@ -27,10 +27,10 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   <p style="text-align: justify">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p><strong><a href="{{ publi.link2.url }}">{{ publi.link2.display }}</a></strong></p>
-  <p><strong><a href="{{ publi.link3.url }}">{{ publi.link3.display }}</a></strong></p>
-  <p><strong><a href="{{ publi.link4.url }}">{{ publi.link4.display }}</a></strong></p>
+  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong>, 
+  <strong><a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a></strong></p> 
+  <p><strong><a href="{{ publi.linkcode.url }}">{{ publi.linkcode.display }}</a></strong>, 
+  <strong><a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
  </div>
