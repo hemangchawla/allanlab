@@ -40,6 +40,8 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
         <p style="text-align: justify">{{ publi.description }}</p>
     {% endif %}  
 
+[//]: # (    <p style="text-align: justify">{{ publi.description }}</p>)
+
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
   {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
