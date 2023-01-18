@@ -31,11 +31,11 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
         <div>
         <p style="text-align: justify">{{ publi.description | split:'<!--more-->' | first }}</p>
         </div>
-        <input type="checkbox" class="read-more-state" id="{{ page.url }}"/>
+        <input type="checkbox" class="read-more-state" id="{{ publi.url }}"/>
         <div class="read-more">
         <p style="text-align: justify">{{ publi.description | split:'<!--more-->' | last  }}</p>
         </div>
-        <label for="{{ page.url }}" class="read-more-trigger"></label>
+        <label for="{{ publi.url }}" class="read-more-trigger"></label>
     {% else %}
         <p style="text-align: justify">{{ publi.description }}</p>
     {% endif %}  
