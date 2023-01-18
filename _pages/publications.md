@@ -24,24 +24,8 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
+  <p style="text-align: justify">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
----
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-    {% if publi.description contains '<!--more-->' %}
-        <div>
-        <p style="text-align: justify">{{ publi.description | split:'<!--more-->' | first }}</p>
-        </div>
-        <input type="checkbox" class="read-more-state" id="{{ publi.url }}"/>
-        <div class="read-more">
-        <p style="text-align: justify">{{ publi.description | split:'<!--more-->' | last  }}</p>
-        </div>
-        <label for="{{ publi.url }}" class="read-more-trigger"></label>
-    {% else %}
-        <p style="text-align: justify">{{ publi.description }}</p>
-    {% endif %}  
-
-[//]: # (    <p style="text-align: justify">{{ publi.description }}</p>)
-
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
   {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
@@ -70,46 +54,3 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 {% endif %}
 
 <p> &nbsp; </p>
-
-
-/* Read More */
-
-.read-more {
-    opacity: 0;
-    max-height: 0;
-    font-size: 0;
-    transition: .25s ease;
-    display: none;
-}
-
-.read-more-state {
-  display: none;
-}
-
-.read-more-state:checked ~ .read-more {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-  display: inherit;
-}
-
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Continue reading...';
-}
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less...';
-}
-
-.read-more-trigger {
-  cursor: pointer;
-  padding: 1em .5em;
-  color: #0085bd;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #0085bd;
-  border-radius: .25em;
-  font-weight: 500;
-  display: grid;
-  text-align: center;
-}
