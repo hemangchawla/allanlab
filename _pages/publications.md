@@ -24,9 +24,9 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
+  <p><em>{{ publi.authors }}</em></p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   <p style="text-align: justify">{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
   {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
