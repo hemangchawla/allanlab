@@ -35,7 +35,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
       {{ publi.description }}
     {% endif %}
     
-<p style="text-align: justify">{{ publi.description }}</p>
+[//]: # (<p style="text-align: justify">{{ publi.description }}</p>)
   <p><em>{{ publi.authors }}</em></p>
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
