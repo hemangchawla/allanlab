@@ -1,3 +1,89 @@
+- title: "Image Masking for Robust Self-Supervised Monocular Depth Estimation"
+  image: mimdepth.png
+  authors: H Chawla, K Jeeveswaran, E Arani, B Zonooz
+  description: "Self-supervised monocular depth estimation is a salient task for 3D scene understanding. Learned jointly with monocular ego-motion estimation, several methods have been proposed to predict accurate pixel-wise depth without using labeled data. Nevertheless, these methods focus on improving performance under ideal conditions without natural or digital corruptions. A general absence of occlusions is assumed even for object-specific depth estimation. These methods are also vulnerable to adversarial attacks, which is a pertinent concern for their reliable deployment on robots and autonomous driving systems. We propose MIMDepth, a method that adapts masked image modeling (MIM) for self-supervised monocular depth estimation. While MIM has been used to learn generalizable features during pre-training, we show how it could be adapted for direct training of monocular depth estimation. Our experiments show that MIMDepth is more robust to noise, blur, weather conditions, digital artifacts, occlusions, as well as untargeted and targeted adversarial attacks."
+  link:
+    url: https://www.icra2023.org/
+    display: ICRA 2023
+#  linkvideo:
+#    url: youtu.be/ZZSVbn_Cz74
+#    display: Supplementary video
+  linkopen:
+    url: https://arxiv.org/pdf/2210.02357.pdf
+    display: Arxiv
+#  linkcode:
+#    url: https://github.com/NeurAI-Lab/mono-pose-attack
+#    display: Code
+#  linkpres:
+#    url: youtu.be/fh0xVSULQSU
+#    display: Presentation
+  highlight: 1
+
+
+- title: "AI-Driven Road Maintenance Inspection v2: Reducing Data Dependency & Quantifying Road Damage"
+  image: road_maintenance.png
+  description: "Road infrastructure maintenance inspection is typically a labor-intensive and critical task to ensure the safety of all road users. Existing state-of-the-art techniques in Artificial Intelligence (AI) for object detection and segmentation help automate a huge chunk of this task given adequate annotated data. However, annotating videos from scratch is cost-prohibitive. For instance, it can take an annotator several days to annotate a 5-minute video recorded at 30 FPS. Hence, we propose an automated labelling pipeline by leveraging techniques like few-shot learning and out-of-distribution detection to generate labels for road damage detection. In addition, our pipeline includes a risk factor assessment for each damage by instance quantification to prioritize locations for repairs which can lead to optimal deployment of road maintenance machinery. We show that the AI models trained with these techniques can not only generalize better to unseen real-world data with reduced requirement for human annotation but also provide an estimate of maintenance urgency, thereby leading to safer roads."
+  authors: H Iqbal, H Chawla, A Varma, T Brouns, A Badar, E Arani, B Zonooz
+  link:
+    url: https://www.irf.global/event/r2t22-dc/
+    display: IRF Global R2T 2022
+#  linkvideo:
+#    url: youtu.be/ZZSVbn_Cz74
+#    display: Supplementary video
+  linkopen:
+    url: https://arxiv.org/pdf/2210.03570.pdf
+    display: Arxiv
+#  linkcode:
+#    url: https://github.com/NeurAI-Lab/mono-pose-attack
+#    display: Code
+#  linkpres:
+#    url: youtu.be/fh0xVSULQSU
+#    display: Presentation
+  highlight: 1
+
+- title: "Adversarial attacks on monocular pose estimation"
+  image: pose_adversarial_attack.png
+  description: "Advances in deep learning have resulted in steady progress in computer vision with improved accuracy on tasks such as object detection and semantic segmentation. Nevertheless, deep neural networks are vulnerable to adversarial attacks, thus presenting a challenge in reliable deployment. Two of the prominent tasks in 3D scene-understanding for robotics and advanced driver assistance systems are monocular depth and pose estimation, often learned together in an unsupervised manner. While studies evaluating the impact of adversarial attacks on monocular depth estimation exist, a systematic demonstration and analysis of adversarial perturbations against pose estimation are lacking. We show how additive imperceptible perturbations can not only change predictions to increase the trajectory drift but also catastrophically alter its geometry. We also study the relation between adversarial perturbations targeting monocular depth and pose estimation networks, as well as the transferability of perturbations to other networks with different architectures and losses. Our experiments show how the generated perturbations lead to notable errors in relative rotation and translation predictions and elucidate vulnerabilities of the networks."
+  authors: H Chawla, A Varma, E Arani, B Zonooz
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/9982154
+    display: IROS2022 2022
+#  linkvideo:
+#    url: youtu.be/ZZSVbn_Cz74
+#    display: Supplementary video
+  linkopen:
+    url: https://arxiv.org/pdf/2207.07032.pdf
+    display: Arxiv
+  linkcode:
+    url: https://github.com/NeurAI-Lab/mono-pose-attack
+    display: Code
+  linkpres:
+    url: youtu.be/fh0xVSULQSU
+    display: Presentation
+  highlight: 1
+
+
+- title: "Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics"
+  image: mtsfmv1.png
+  description: "The advent of autonomous driving and advanced driver assistance systems necessitates continuous developments in computer vision for 3D scene understanding. Self-supervised monocular depth estimation, a method for pixel-wise distance estimation of objects from a single camera without the use of ground truth labels, is an important task in 3D scene understanding. However, existing methods for this task are limited to convolutional neural network (CNN) architectures. In contrast with CNNs that use localized linear operations and lose feature resolution across the layers, vision transformers process at constant resolution with a global receptive field at every stage. While recent works have compared transformers against their CNN counterparts for tasks such as image classification, no study exists that investigates the impact of using transformers for self-supervised monocular depth estimation. Here, we first demonstrate how to adapt vision transformers for self-supervised monocular depth estimation. Thereafter, we compare the transformer and CNN-based architectures for their performance on KITTI depth prediction benchmarks, as well as their robustness to natural corruptions and adversarial attacks, including when the camera intrinsics are unknown. Our study demonstrates how transformer-based architecture, though lower in run-time efficiency, achieves comparable performance while being more robust and generalizable."
+  authors: A Varma, H Chawla, B Zonooz, E Arani
+  link:
+    url: https://www.scitepress.org/PublicationsDetail.aspx?ID=ddmpEjj4Ajo=&t=1
+    display: VISAPP 2022
+#  linkvideo:
+#    url: youtu.be/ZZSVbn_Cz74
+#    display: Supplementary video
+  linkopen:
+    url: https://arxiv.org/pdf/2202.03131.pdf
+    display: Arxiv
+#  linkcode:
+#    url: https://github.com/NeurAI-Lab/G2S
+#    display: Code
+  linkpres:
+    url: youtu.be/ZZSVbn_Cz74
+    display: Presentation
+  highlight: 1
+
 - title: "Multimodal Scale Consistency and Awareness for Monocular Self-Supervised Depth Estimation"
   image: g2s.png
   description: "Dense depth estimation is essential to scene-understanding for autonomous driving. However, recent self-supervised approaches on monocular videos suffer from scale-inconsistency across long sequences. Utilizing data from the ubiquitously copresent global positioning systems (GPS), we tackle this challenge by proposing a dynamically-weighted GPS-to-Scale (g2s) loss to complement the appearance-based losses. We emphasize that the GPS is needed only during the multimodal training, and not at inference. The relative distance between frames captured through the GPS provides a scale signal that is independent of the camera setup and scene distribution, resulting in richer learned feature representations. Through extensive evaluation on multiple datasets, we demonstrate scale-consistent and -aware depth estimation during inference, improving the performance even when training with low-frequency GPS data."
