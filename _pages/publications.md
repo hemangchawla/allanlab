@@ -27,7 +27,19 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <p><em>{{ publi.authors }}</em></p>
 ---
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-  <p style="text-align: justify">{{ publi.description }}</p>
+    {% if publi.description contains '<!--more-->' %}
+        <div>
+        <p style="text-align: justify">{{ publi.description | split:'<!--more-->' | first }}</p>
+        </div>
+        <input type="checkbox" class="read-more-state" id="{{ page.url }}"/>
+        <div class="read-more">
+        <p style="text-align: justify">{{ publi.description | split:'<!--more-->' | last  }}</p>
+        </div>
+        <label for="{{ page.url }}" class="read-more-trigger"></label>
+    {% else %}
+        <p style="text-align: justify">{{ publi.description }}</p>
+    {% endif %}  
+
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
   {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
@@ -46,13 +58,3 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<p> &nbsp; </p>
