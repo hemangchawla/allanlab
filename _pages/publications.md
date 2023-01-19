@@ -48,7 +48,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 [//]: # (    {{ words | join " " }})
 
   {% capture to_show %} {{publi.description | truncatewords: max_words}} {% endcapture %}
-  {% capture to_hide %} {{publi.description | truncatewords: to_show | last }} {% endcapture %}
+  {% capture to_hide %} {{publi.description | split: to_show | last }} {% endcapture %}
   {{to_show}}
   AND
   {{to_hide}}
