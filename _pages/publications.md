@@ -36,7 +36,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 
   {% assign splitting = false %}
 
-  {% if content_words != excerpt_words  %}
+  {% if content_words > excerpt_words  %}
     {% capture to_show %} {{publi.description | truncatewords: max_words, "" }} {% endcapture %}
     {% assign to_show = to_show | strip %}
     {% capture to_hide %} {{publi.description | split: to_show | last }} {% endcapture %}
