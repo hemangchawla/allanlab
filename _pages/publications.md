@@ -31,12 +31,12 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
     {{ publi.description | number_of_words }}
   {% endcapture %}
   {% capture excerpt_words %}
-    {{ publi.description | truncatewords: max_words}}
+    {{ publi.description | truncatewords: {{max_words}} }}
   {% endcapture %}
 
   {% if content_words != excerpt_words  %}
     <p style="text-align: justify">
-    {{ publi.description | truncatewords: max_words}}
+    {{ publi.description | truncatewords: {{ max_words }} }}
     </p>
   {% endif %}
     
