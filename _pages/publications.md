@@ -45,7 +45,9 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 
 {% if splitting %}
   <div>
+  <p style="text-align: justify"> 
   {{to_show}} ...
+  </p>
   </div>
   <input type="checkbox" class="read-more-state" id="more"/>
   <div class="read-more">
