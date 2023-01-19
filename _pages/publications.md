@@ -26,7 +26,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   
-  {% assign max_words = 30 %}
+  {% assign max_words = 1000 %}
   {% capture content_words %}
     {{ publi.description | number_of_words }}
   {% endcapture %}
@@ -40,10 +40,18 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 
   <p style="text-align: justify"> 
   {% if content_words != excerpt_words  %}
-    {{ publi.description | truncatewords: max_words}}
-    wohoo
-    {{ words | join " " }}
-    
+
+[//]: # (    {{ publi.description | truncatewords: max_words}})
+
+[//]: # (    wohoo)
+
+[//]: # (    {{ words | join " " }})
+
+  {% assign to_show = {{publi.description | truncatewords: max_words}} %}
+  {% assign to_hide = {{publi.description | truncatewords: to_show | last }} %}
+  {{to_show}}
+  AND
+  {{to_hide}}
   {% endif %}
   </p>
 
@@ -77,20 +85,35 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 
 <p> &nbsp; </p>
 
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+[//]: # (<script>)
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
+[//]: # (function myFunction&#40;&#41; {)
+
+[//]: # (  var dots = document.getElementById&#40;"dots"&#41;;)
+
+[//]: # (  var moreText = document.getElementById&#40;"more"&#41;;)
+
+[//]: # (  var btnText = document.getElementById&#40;"myBtn"&#41;;)
+
+[//]: # ()
+[//]: # (  if &#40;dots.style.display === "none"&#41; {)
+
+[//]: # (    dots.style.display = "inline";)
+
+[//]: # (    btnText.innerHTML = "Read more"; )
+
+[//]: # (    moreText.style.display = "none";)
+
+[//]: # (  } else {)
+
+[//]: # (    dots.style.display = "none";)
+
+[//]: # (    btnText.innerHTML = "Read less"; )
+
+[//]: # (    moreText.style.display = "inline";)
+
+[//]: # (  })
+
+[//]: # (})
+
+[//]: # (</script>)
