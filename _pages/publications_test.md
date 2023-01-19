@@ -13,7 +13,7 @@ permalink: /publications/
     </ol>
 
     <!-- Items -->
-    
+    {% assign publi = site.data.publist[0] %}
     <div class="carousel-inner" markdown="0">
       <div class="item active">
       <div class="well">
