@@ -33,7 +33,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   {% endif %}
   </p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-  {% assign max_words = 27 %}
+  {% assign max_words = 81 %}
   <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
   <p>
 
