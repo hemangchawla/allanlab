@@ -26,7 +26,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   
-  {{%assign max_words = 30 %}}
+  {{% assign max_words = 30 %}}
   {% capture content_words %}
     {{ publi.description | number_of_words }}
   {% endcapture %}
