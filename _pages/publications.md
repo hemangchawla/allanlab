@@ -35,7 +35,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
 ----
   {% assign max_words = 27 %}
-  <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a herf="{{publi.link.url}}">(read more)</a></p>
+  <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
   {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
