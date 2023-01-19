@@ -12,9 +12,9 @@
 
 .read-more-state:checked ~ .read-more {
   opacity: 1;
-  font-size: 10;
+  font-size: inherit;
   max-height: 999em;
-  display: inline;
+  display: inherit;
 }
 
 .read-more-state ~ .read-more-trigger:before {
