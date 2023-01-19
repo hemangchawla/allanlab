@@ -35,7 +35,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   </p>
 
   {% if content_words != excerpt_words  %}
-    <p class="right"><a href="{{publi.url}}">Read more</a></p>
+    <p class="right"><a href={{publi.url}}>Read more</a></p>
   {% endif %}
     
   <p><em>{{ publi.authors }}</em></p>
