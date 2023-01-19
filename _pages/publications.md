@@ -27,7 +27,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <p><em>{{ publi.authors }}</em></p>
   <p>
   {%- if publi.conf.website -%}
-  <a href="{{ publi.conf.website }}">{{publi.conf.name}}, {{publi.conf.year}} </a>] 
+  <a href="{{ publi.conf.website }}">{{publi.conf.name}}, {{publi.conf.year}} </a> 
   {% else %}
   {{publi.conf.name}}, {{publi.conf.year}}
   {% endif %}
