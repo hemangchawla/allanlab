@@ -34,12 +34,12 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
     {{ publi.description | truncatewords: max_words}}
   {% endcapture %}
 
+  <p style="text-align: justify"> 
   {% if content_words != excerpt_words  %}
-    <p style="text-align: justify">
-    {{ publi.description | truncatewords: max_words}}
-    </p>
+    {{ publi.description | truncatewords: max_words}} 
   {% endif %}
-    
+  </p>
+
   <p><em>{{ publi.authors }}</em></p>
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
