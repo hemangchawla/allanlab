@@ -25,17 +25,19 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
  <div class="well">
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
+  
+  {{%assign max_words = 30 %}}
   {% capture content_words %}
     {{ publi.description | number_of_words }}
   {% endcapture %}
-  <p style="text-align: justify">
-    {% capture excerpt_words %}
-      {{ publi.description | truncatewords: 30}}
-    {% endcapture %}
-  </p>
+  {% capture excerpt_words %}
+    {{ publi.description | truncatewords: max_words}}
+  {% endcapture %}
 
   {% if content_words != excerpt_words  %}
-    <p class="right"><a href={{publi.url}}>Read more</a></p>
+    <p style="text-align: justify">
+    {{ publi.description | truncatewords: max_words}}
+    </p>
   {% endif %}
     
   <p><em>{{ publi.authors }}</em></p>
