@@ -16,7 +16,6 @@ permalink: /publications/
     {% assign publi = site.data.publist[0] %}
     <div class="carousel-inner" markdown="0">
       <div class="item active">
-      <div class="well">
       <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
       <p><em>{{ publi.authors }}</em></p>
       <p>
@@ -40,7 +39,6 @@ permalink: /publications/
       </p>
       <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
       <p> {{ publi.news2 }}</p>
-     </div>
       </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
