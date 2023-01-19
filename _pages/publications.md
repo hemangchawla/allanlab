@@ -25,9 +25,15 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
  <div class="well">
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
   <p><em>{{ publi.authors }}</em></p>
-  <p>{{publi.conf.name}}, {{publi.conf.year}} {%- if publi.conf.website -%} [<a href="{{ publi.conf.website }}">website</a>] {% endif %}</p>
+  <p>
+  {%- if publi.conf.website -%}
+  <a href="{{ publi.conf.website }}">{{publi.conf.name}}, {{publi.conf.year}} </a>] 
+  {% else %}
+  {{publi.conf.name}}, {{publi.conf.year}}
+  {% endif %}
+  </p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-  ---
+----
   {% assign max_words = 27 %}
   <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a herf="{{publi.link.url}}">(read more)</a></p>
   <p>
