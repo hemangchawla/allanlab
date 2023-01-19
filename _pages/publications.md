@@ -24,43 +24,12 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-  
-  {% assign max_words = 27 %}
-  {% capture content_words %}
-    {{ publi.description | number_of_words }}
-  {% endcapture %}
-  {% capture excerpt_words %}
-    {{ publi.description | truncatewords: max_words}}
-  {% endcapture %}
-
-  {% assign splitting = false %}
-
-  {% if content_words > excerpt_words  %}
-    {% capture to_show %} {{publi.description | truncatewords: max_words, "" }} {% endcapture %}
-    {% assign to_show = to_show | strip %}
-    {% capture to_hide %} {{publi.description | split: to_show | last }} {% endcapture %}
-    {% assign splitting = true %}
-  {% endif %}
-
-{% if splitting %}
-  <div>
-  <p style="text-align: justify"> 
-  {{to_show}} ...
-  </p>
-  </div>
-  <input type="checkbox" class="read-more-state" id="more"/>
-  <div class="read-more">
-  {{ to_hide }}
-  </div>  
-  <label for="more" class="read-more-trigger"></label>
-{% else %}
-  <p style="text-align: justify"> 
-  {{publi.description}}
-  </p>
-{% endif %}
-
   <p><em>{{ publi.authors }}</em></p>
+  <p>{{publi.conf.name}}, {{publi.conf.year}} {%- if publi.conf.website -%} [<a href="{{ publi.conf.website }}">website</a>] {% endif %}</p>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
+  ---
+  {% assign max_words = 27 %}
+  <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a herf="{{publi.link.url}}">(read more)</a></p>
   <p>
   {%- if publi.link -%}<strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong><br/> {%- endif -%}
   {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}

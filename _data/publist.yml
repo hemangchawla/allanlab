@@ -1,4 +1,8 @@
 - title: "Image Masking for Robust Self-Supervised Monocular Depth Estimation"
+  conf:
+    name: IEEE International Conference on Robotics and Automation (ICRA)
+    website: https://www.icra2023.org/
+    year: 2023
   image: mimdepth.png
   authors: H Chawla, K Jeeveswaran, E Arani, B Zonooz
   description: "Self-supervised monocular depth estimation <!-- more --> is a salient task for 3D scene understanding. Learned jointly with monocular ego-motion estimation, several methods have been proposed to predict accurate pixel-wise depth without using labeled data. Nevertheless, these methods focus on improving performance under ideal conditions without natural or digital corruptions. A general absence of occlusions is assumed even for object-specific depth estimation. These methods are also vulnerable to adversarial attacks, which is a pertinent concern for their reliable deployment on robots and autonomous driving systems. We propose MIMDepth, a method that adapts masked image modeling (MIM) for self-supervised monocular depth estimation. While MIM has been used to learn generalizable features during pre-training, we show how it could be adapted for direct training of monocular depth estimation. Our experiments show that MIMDepth is more robust to noise, blur, weather conditions, digital artifacts, occlusions, as well as untargeted and targeted adversarial attacks."
@@ -21,6 +25,10 @@
 
 
 - title: "AI-Driven Road Maintenance Inspection v2: Reducing Data Dependency & Quantifying Road Damage"
+  conf:
+    name: International Road Federation (IRF) Global Roads to Tomorrow (R2T) Conference
+    website: https://www.irf.global/event/r2t22-dc/
+    year: 2022
   image: road_maintenance.png
   description: "Road infrastructure maintenance inspection is typically a labor-intensive and critical task to ensure the safety of all road users. Existing state-of-the-art techniques in Artificial Intelligence (AI) for object detection and segmentation help automate a huge chunk of this task given adequate annotated data. However, annotating videos from scratch is cost-prohibitive. For instance, it can take an annotator several days to annotate a 5-minute video recorded at 30 FPS. Hence, we propose an automated labelling pipeline by leveraging techniques like few-shot learning and out-of-distribution detection to generate labels for road damage detection. In addition, our pipeline includes a risk factor assessment for each damage by instance quantification to prioritize locations for repairs which can lead to optimal deployment of road maintenance machinery. We show that the AI models trained with these techniques can not only generalize better to unseen real-world data with reduced requirement for human annotation but also provide an estimate of maintenance urgency, thereby leading to safer roads."
   authors: H Iqbal, H Chawla, A Varma, T Brouns, A Badar, E Arani, B Zonooz
@@ -42,6 +50,10 @@
   highlight: 1
 
 - title: "Adversarial attacks on monocular pose estimation"
+  conf:
+    name: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+    website: https://iros2022.org/
+    year: 2022
   image: pose_adversarial_attack.png
   description: "Advances in deep learning have resulted in steady progress in computer vision with improved accuracy on tasks such as object detection and semantic segmentation. Nevertheless, deep neural networks are vulnerable to adversarial attacks, thus presenting a challenge in reliable deployment. Two of the prominent tasks in 3D scene-understanding for robotics and advanced driver assistance systems are monocular depth and pose estimation, often learned together in an unsupervised manner. While studies evaluating the impact of adversarial attacks on monocular depth estimation exist, a systematic demonstration and analysis of adversarial perturbations against pose estimation are lacking. We show how additive imperceptible perturbations can not only change predictions to increase the trajectory drift but also catastrophically alter its geometry. We also study the relation between adversarial perturbations targeting monocular depth and pose estimation networks, as well as the transferability of perturbations to other networks with different architectures and losses. Our experiments show how the generated perturbations lead to notable errors in relative rotation and translation predictions and elucidate vulnerabilities of the networks."
   authors: H Chawla, A Varma, E Arani, B Zonooz
@@ -64,6 +76,10 @@
 
 
 - title: "Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics"
+  conf:
+    name: International Conference on Computer Vision Theory and Applications
+    website: https://visapp.scitevents.org/?y=2022
+    year: 2022
   image: mtsfmv1.png
   description: "The advent of autonomous driving and advanced driver assistance systems necessitates continuous developments in computer vision for 3D scene understanding. Self-supervised monocular depth estimation, a method for pixel-wise distance estimation of objects from a single camera without the use of ground truth labels, is an important task in 3D scene understanding. However, existing methods for this task are limited to convolutional neural network (CNN) architectures. In contrast with CNNs that use localized linear operations and lose feature resolution across the layers, vision transformers process at constant resolution with a global receptive field at every stage. While recent works have compared transformers against their CNN counterparts for tasks such as image classification, no study exists that investigates the impact of using transformers for self-supervised monocular depth estimation. Here, we first demonstrate how to adapt vision transformers for self-supervised monocular depth estimation. Thereafter, we compare the transformer and CNN-based architectures for their performance on KITTI depth prediction benchmarks, as well as their robustness to natural corruptions and adversarial attacks, including when the camera intrinsics are unknown. Our study demonstrates how transformer-based architecture, though lower in run-time efficiency, achieves comparable performance while being more robust and generalizable."
   authors: A Varma, H Chawla, B Zonooz, E Arani
@@ -85,6 +101,10 @@
   highlight: 1
 
 - title: "Multimodal Scale Consistency and Awareness for Monocular Self-Supervised Depth Estimation"
+  conf:
+    name: IEEE International Conference on Robotics and Automation (ICRA)
+    website: www.icra2021.org
+    year: 2021
   image: g2s.png
   description: "Dense depth estimation is essential to scene-understanding for autonomous driving. However, recent self-supervised approaches on monocular videos suffer from scale-inconsistency across long sequences. Utilizing data from the ubiquitously copresent global positioning systems (GPS), we tackle this challenge by proposing a dynamically-weighted GPS-to-Scale (g2s) loss to complement the appearance-based losses. We emphasize that the GPS is needed only during the multimodal training, and not at inference. The relative distance between frames captured through the GPS provides a scale signal that is independent of the camera setup and scene distribution, resulting in richer learned feature representations. Through extensive evaluation on multiple datasets, we demonstrate scale-consistent and -aware depth estimation during inference, improving the performance even when training with low-frequency GPS data."
   authors: H Chawla, A Varma, S Marzban, E Arani, B Zonooz
@@ -106,6 +126,10 @@
   highlight: 1
 
 - title: "Practical Auto-Calibration for Spatial Scene-Understanding from Crowdsourced Dashcamera Videos"
+  conf:
+    name: International Conference on Computer Vision Theory and Applications
+    website: https://visapp.scitevents.org/?y=2021
+    year: 2021
   image: Autocalib.png
   description: "Spatial scene-understanding, including dense depth and ego-motion estimation, is an important problem in computer vision for autonomous vehicles and advanced driver assistance systems. Thus, it is beneficial to design perception modules that can utilize crowdsourced videos collected from arbitrary vehicular onboard or dashboard cameras. However, the intrinsic parameters corresponding to such cameras are often unknown or change over time. Typical manual calibration approaches require objects such as a chessboard or additional scene-specific information. On the other hand, automatic camera calibration does not have such requirements. Yet, the automatic calibration of dashboard cameras is challenging as forward and planar navigation results in critical motion sequences with reconstruction ambiguities. Structure reconstruction of complete visual-sequences that may contain tens of thousands of images is also computationally untenable. Here, we propose a system for practical monocular onboard camera auto-calibration from crowdsourced videos. We show the effectiveness of our proposed system on the KITTI raw, Oxford RobotCar, and the crowdsourced D2-City datasets in varying conditions. Finally, we demonstrate its application for accurate monocular dense depth and ego-motion estimation on uncalibrated videos. "
   authors: H Chawla, M Jukola, S Marzban, E Arani, B Zonooz
@@ -121,6 +145,10 @@
   highlight: 1
 
 - title: "Crowdsourced 3D Mapping: A Combined Multi-View Geometry and Self-Supervised Learning Approach"
+  conf:
+    name: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+    website: https://iros2020.org/
+    year: 2020
   image: 3D_positioning.png
   description: "The ability to efficiently utilize crowdsourced visual data carries immense potential for the domains of large scale dynamic mapping and autonomous driving. However, state-of-the-art methods for crowdsourced 3D mapping assume prior knowledge of camera intrinsics. In this work, we propose a framework that estimates the 3D positions of semantically meaningful landmarks such as traffic signs without assuming known camera intrinsics, using only monocular color camera and GPS. We utilize multi-view geometry as well as deep learning based self-calibration, depth, and ego-motion estimation for traffic sign positioning, and show that combining their strengths is important for increasing the map coverage. To facilitate research on this task, we construct and make available a KITTI based 3D traffic sign ground truth positioning dataset. Using our proposed framework, we achieve an average single-journey relative and absolute positioning accuracy of 39cm and 1.26m respectively, on this dataset. "
   authors: H Chawla, M Jukola, T. Brouns, E Arani, B Zonooz
@@ -137,6 +165,10 @@
 
 
 - title: "Monocular Vision based Crowdsourced 3D Traffic Sign Positioning with Unknown  Camera  Intrinsics  and  Distortion  Coefficients"
+  conf:
+    name: IEEE International Conference on Intelligent Transportation Systems
+    website: http://www.ieee-itsc2020.org/
+    year: 2020
   image: ApproachSingleRun.png
   description: "Autonomous  vehicles  and  driver  assistance  systems  utilize  maps  of  3D  semantic  landmarks  for  improved decision  making.  However,  scaling  the  mapping  process  aswell  as  regularly  updating  such  maps  come  with  a  huge  cost. Crowdsourced mapping of these landmarks such as traffic signpositions  provides  an  appealing  alternative.  The  state-of-the-art  approaches  to  crowdsourced  mapping  use  ground  truthcamera  parameters,  which  may  not  always  be  known  or  maychange  over  time.  In  this  work,  we  demonstrate  an  approachto  computing  3D  traffic  sign  positions  without  knowing  thecamera focal lengths, principal point, and distortion coefficientsa priori. We validate our proposed approach on a public datasetof traffic signs in KITTI. Using only a monocular color cameraand  GPS,  we  achieve  an  average  single  journey  relative  andabsolute positioning accuracy of 0.26 m and 1.38 m, respectively. "
   authors: H Chawla, M Jukola, E Arani, B Zonooz
@@ -152,6 +184,10 @@
   highlight: 1
 
 - title: "Robot Placement for Mobile Manipulation in Domestic Environments"
+  conf:
+    name: TU Delft MSc. Thesis
+    website: https://tudelftroboticsinstitute.nl/study/master-education-programs
+    year: 2017
   image: robot_placement.png
   description: "This thesis presents a novel robot placement algorithm DeCOWA (Determining Commutation configuration using Optimization and Workspace Analysis) for domestic mobile manipulators. It computes a favorable position and orientation of the mobile base enabling a high chance of successful planning to target through a short path, while accounting for sensing and actuation errors typical in real world scenarios. "
   authors: H Chawla
