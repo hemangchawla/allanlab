@@ -34,9 +34,16 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
     {{ publi.description | truncatewords: max_words}}
   {% endcapture %}
 
+  {% if content_words != excerpt_words  %}
+    {% assign words = publi.description | split: " " %} 
+  {% endif %}
+
   <p style="text-align: justify"> 
   {% if content_words != excerpt_words  %}
-    {{ publi.description | truncatewords: max_words}} 
+    {{ publi.description | truncatewords: max_words}}
+    wohoo
+    {{ words | join " " }}
+    
   {% endif %}
   </p>
 
