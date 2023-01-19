@@ -77,7 +77,7 @@
 
 - title: "Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics"
   conf:
-    name: International Conference on Computer Vision Theory and Applications
+    name: International Conference on Computer Vision Theory and Applications (VISAPP)
     website: https://visapp.scitevents.org/?y=2022
     year: 2022
   image: mtsfmv1.png
@@ -127,7 +127,7 @@
 
 - title: "Practical Auto-Calibration for Spatial Scene-Understanding from Crowdsourced Dashcamera Videos"
   conf:
-    name: International Conference on Computer Vision Theory and Applications
+    name: International Conference on Computer Vision Theory and Applications (VISAPP)
     website: https://visapp.scitevents.org/?y=2021
     year: 2021
   image: Autocalib.png
@@ -185,7 +185,7 @@
 
 - title: "Robot Placement for Mobile Manipulation in Domestic Environments"
   conf:
-    name: TU Delft MSc. Thesis
+    name: Delft University of Technology
     website: https://tudelftroboticsinstitute.nl/study/master-education-programs
     year: 2017
   image: robot_placement.png
