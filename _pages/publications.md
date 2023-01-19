@@ -43,9 +43,22 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
     {% assign splitting = true %}
   {% endif %}
 
+{% if splitting %}
+  <div>
+  <p style="text-align: justify"> 
+  {{to_show}} ...
+  </p>
+  </div>
+  <input type="checkbox" class="read-more-state" id="more"/>
+  <div class="read-more">
+        {{ to_hide }}
+  </div>  
+  <label for="more" class="read-more-trigger"></label>
+{% else %}
   <p style="text-align: justify"> 
   {{publi.description}}
   </p>
+{% endif %}
 
   <p><em>{{ publi.authors }}</em></p>
   <p>
@@ -76,42 +89,3 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 {% endif %}
 
 <p> &nbsp; </p>
-
-[//]: # (<script>)
-
-[//]: # (function myFunction&#40;&#41; {)
-
-[//]: # (  var dots = document.getElementById&#40;"dots"&#41;;)
-
-[//]: # (  var moreText = document.getElementById&#40;"more"&#41;;)
-
-[//]: # (  var btnText = document.getElementById&#40;"myBtn"&#41;;)
-
-[//]: # ()
-[//]: # (  if &#40;dots.style.display === "none"&#41; {)
-
-[//]: # (    dots.style.display = "inline";)
-
-[//]: # (    btnText.innerHTML = "Read more"; )
-
-[//]: # (    moreText.style.display = "none";)
-
-[//]: # (  } else {)
-
-[//]: # (    dots.style.display = "none";)
-
-[//]: # (    btnText.innerHTML = "Read less"; )
-
-[//]: # (    moreText.style.display = "inline";)
-
-[//]: # (  })
-
-[//]: # (})
-
-[//]: # (</script>)
-
-[//]: # (    {{ publi.description | truncatewords: max_words}})
-
-[//]: # (    wohoo)
-
-[//]: # (    {{ words | join " " }})
