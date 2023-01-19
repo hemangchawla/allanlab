@@ -26,7 +26,7 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   
-  {% assign max_words = 1000 %}
+  {% assign max_words = 30 %}
   {% capture content_words %}
     {{ publi.description | number_of_words }}
   {% endcapture %}
@@ -40,12 +40,6 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 
   <p style="text-align: justify"> 
   {% if content_words != excerpt_words  %}
-
-[//]: # (    {{ publi.description | truncatewords: max_words}})
-
-[//]: # (    wohoo)
-
-[//]: # (    {{ words | join " " }})
 
   {% capture to_show %} {{publi.description | truncatewords: max_words}} {% endcapture %}
   {% capture to_hide %} {{publi.description | split: to_show | last }} {% endcapture %}
@@ -117,3 +111,9 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
 [//]: # (})
 
 [//]: # (</script>)
+
+[//]: # (    {{ publi.description | truncatewords: max_words}})
+
+[//]: # (    wohoo)
+
+[//]: # (    {{ words | join " " }})
