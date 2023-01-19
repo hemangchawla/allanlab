@@ -41,9 +41,9 @@ For a full list with citations, go to [Google Scholar](https://scholar.google.ch
   <p style="text-align: justify"> 
   {% if content_words != excerpt_words  %}
 
-  {% capture to_show %} {{publi.description | truncatewords: max_words}} {% endcapture %}
+  {% capture to_show %} {{publi.description | truncatewords: max_words, "" }} {% endcapture %}
   {% capture to_hide %} {{publi.description | split: to_show | last }} {% endcapture %}
-  {{to_show}}
+  {{to_show}}...
   AND
   {{to_hide}}
   {% endif %}
