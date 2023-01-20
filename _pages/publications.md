@@ -9,7 +9,7 @@ permalink: /publications/
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-      {% for i in (0..num_items) %}
+      {% for i in (0..0) %}
         {% if i == 0 %}
           <li data-target="#carousel" data-slide-to="{{i}}" class="active"></li>
         {% else %}
@@ -19,7 +19,7 @@ permalink: /publications/
     </ol>
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
-      {% for i in (0..num_items) %}
+      {% for i in (0..0) %}
         {% assign publi = site.data.publist[0] %} 
         {% if i == 0 %}
         <div class="item active">
