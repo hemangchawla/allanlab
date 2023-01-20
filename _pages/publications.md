@@ -3,7 +3,7 @@ title: "Hemang Chawla - Publications"
 layout: gridlay
 excerpt: "Hemang Chawla -- Publications."
 sitemap: false
-permalink: /publications/
+permalink: /publications_carousel/
 ---
 {% assign num_items = site.data.publist.size | minus: 1 %}
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
