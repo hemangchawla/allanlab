@@ -76,7 +76,7 @@ permalink: /publications/
           </div>
         </div>
         {% endif %}
-      { % endfor %}
+      {% endfor %}
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
