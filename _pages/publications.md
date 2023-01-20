@@ -20,7 +20,7 @@ permalink: /publications/
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
       {% for i in (0..num_items) %}
-        {% assign publi = site.data.publist[i] %} 
+        {% assign publi = site.data.publist[0] %} 
         {% if i == 0 %}
         <div class="item active">
           <div class="well">
