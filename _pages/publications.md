@@ -3,7 +3,7 @@ title: "Hemang Chawla - Publications"
 layout: gridlay
 excerpt: "Hemang Chawla -- Publications."
 sitemap: false
-permalink: /publications/
+permalink: /publications_master/
 ---
 
 
