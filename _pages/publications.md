@@ -5,7 +5,7 @@ excerpt: "Hemang Chawla -- Publications."
 sitemap: false
 permalink: /publications/
 ---
-{% assign num_items = site.data.publist | minus: 1 %}
+{% assign num_items = site.data.publist.size | minus: 1 %}
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
