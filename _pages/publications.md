@@ -11,8 +11,6 @@ permalink: /research-inventions/
 {% assign highlights = site.data.publist | where_exp: "publi", "publi.highlight == 1" %}
 {% assign num_highlights = highlights.size | minus: 1 %}
 
-{% assign max_words = 27 %}
-
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
@@ -32,53 +30,13 @@ permalink: /research-inventions/
         {% if i == 0 %}
         <div class="item active">
           <div class="well">
-          <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
-          <p><em>{{ publi.authors }}</em></p>
-          <p>
-          {%- if publi.conf.website -%}
-          <a href="{{ publi.conf.website }}">{{publi.conf.name}}, {{publi.conf.year}} </a> 
-          {% else %}
-          {{publi.conf.name}}, {{publi.conf.year}}
-          {% endif %}
-          </p>
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: left; object-fit: contain; width: 500; " />
-          <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
-          <p>
-          <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
-          {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
-          {%- if publi.linkvideo -%}<strong>[<a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a>]</strong> {%- endif -%}
-          {%- if publi.linkopen -%}<strong>[<a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a>]</strong> {%- endif -%} 
-          {%- if publi.linkcode -%}<strong>[<a href="{{ publi.linkcode.url }}">{{ publi.linkcode.display }}</a>]</strong> {%- endif -%} 
-          {%- if publi.linkpres -%}<strong>[<a href="{{ publi.linkpres.url }}">{{ publi.linkpres.display }}</a>]</strong>{%- endif -%}
-          </p>
-          <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-          <p> {{ publi.news2 }}</p>
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: center; object-fit: contain; height: 25%; " />
           </div>
         </div>
         {% else %}
         <div class="item">
           <div class="well">
-          <pubtit style="text-align: justify">{{ publi.title }}</pubtit>
-          <p><em>{{ publi.authors }}</em></p>
-          <p>
-          {%- if publi.conf.website -%}
-          <a href="{{ publi.conf.website }}">{{publi.conf.name}}, {{publi.conf.year}} </a> 
-          {% else %}
-          {{publi.conf.name}}, {{publi.conf.year}}
-          {% endif %}
-          </p>
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: left; object-fit: contain; width: 500;" />
-          <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
-          <p>
-          <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
-          {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
-          {%- if publi.linkvideo -%}<strong>[<a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a>]</strong> {%- endif -%}
-          {%- if publi.linkopen -%}<strong>[<a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a>]</strong> {%- endif -%} 
-          {%- if publi.linkcode -%}<strong>[<a href="{{ publi.linkcode.url }}">{{ publi.linkcode.display }}</a>]</strong> {%- endif -%} 
-          {%- if publi.linkpres -%}<strong>[<a href="{{ publi.linkpres.url }}">{{ publi.linkpres.display }}</a>]</strong>{%- endif -%}
-          </p>
-          <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-          <p> {{ publi.news2 }}</p>
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: left; object-fit: contain; height: 25%;" />
           </div>
         </div>
         {% endif %}
