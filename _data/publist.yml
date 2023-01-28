@@ -21,7 +21,7 @@
 #  linkpres:
 #    url: youtu.be/fh0xVSULQSU
 #    display: Presentation
-  highlight: 1
+  highlight:
 
 
 - title: "AI-Driven Road Maintenance Inspection v2: Reducing Data Dependency & Quantifying Road Damage"
@@ -47,7 +47,7 @@
 #  linkpres:
 #    url: youtu.be/fh0xVSULQSU
 #    display: Presentation
-  highlight: 1
+  highlight:
 
 - title: "Adversarial attacks on monocular pose estimation"
   conf:
@@ -142,7 +142,7 @@
   linkpres:
     url: https://www.youtube.com/watch?v=mBnz-8zWGXM
     display: Presentation
-  highlight: 1
+  highlight:
 
 - title: "Crowdsourced 3D Mapping: A Combined Multi-View Geometry and Self-Supervised Learning Approach"
   conf:
@@ -181,7 +181,7 @@
   linkpres:
     url: https://www.youtube.com/watch?v=JwwENRFXu9g
     display: Presentation
-  highlight: 1
+  highlight:
 
 - title: "Robot Placement for Mobile Manipulation in Domestic Environments"
   conf:
@@ -201,7 +201,7 @@
   linkcode:
     url: https://github.com/hemangchawla/DeCoWA
     display: Code
-  highlight: 1
+  highlight:
 
 
 
