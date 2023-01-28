@@ -9,7 +9,7 @@ permalink: /research-inventions/
 
 {% assign num_items = site.data.publist.size | minus: 1 %}
 {% assign highlights = site.data.publist | where_exp: "publi", "publi.highlight == 1" %}
-{% num_highlights = highlights.size %}
+{% num_highlights = highlights.size | minus: 1 %}
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
