@@ -166,7 +166,7 @@
 
 - title: "Monocular Vision based Crowdsourced 3D Traffic Sign Positioning with Unknown  Camera  Intrinsics  and  Distortion  Coefficients"
   conf:
-    name: IEEE International Conference on Intelligent Transportation Systems
+    name: IEEE International Conference on Intelligent Transportation Systems (ITSC)
     website: http://www.ieee-itsc2020.org/
     year: 2020
   image: ApproachSingleRun.png
