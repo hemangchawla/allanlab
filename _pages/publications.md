@@ -94,11 +94,15 @@ permalink: /publications/
 
 # Publications
 
-See more at [Google Scholar](https://scholar.google.ch/citations?user=_58RpMgAAAAJ), [Semantic Scholar](https://www.semanticscholar.org/author/Hemang-Chawla/102373287), or [ResearchGate](https://www.researchgate.net/profile/Hemang-Chawla-2/research)
-
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
+
+# Patents
+
+
+----
+See more at [Google Scholar](https://scholar.google.ch/citations?user=_58RpMgAAAAJ), [Semantic Scholar](https://www.semanticscholar.org/author/Hemang-Chawla/102373287), and [ResearchGate](https://www.researchgate.net/profile/Hemang-Chawla-2/research)
