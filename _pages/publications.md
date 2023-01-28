@@ -41,7 +41,7 @@ permalink: /research-inventions/
           {{publi.conf.name}}, {{publi.conf.year}}
           {% endif %}
           </p>
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" height="50%" style="float: left; object-fit: contain" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: left; object-fit: contain; height: 100%; width: 100%" />
           <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
           <p>
           <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
@@ -67,7 +67,7 @@ permalink: /research-inventions/
           {{publi.conf.name}}, {{publi.conf.year}}
           {% endif %}
           </p>
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" height="50%" style="float: left; object-fit: contain" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: left; object-fit: contain; height: 100%; width: 100%" />
           <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
           <p>
           <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
