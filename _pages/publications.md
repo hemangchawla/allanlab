@@ -99,7 +99,11 @@ permalink: /scientific-portfolio/
 
 {% endfor %}
 
+# Journal Papers
+
 # Patents
+
+Coming soon ...
 
 
 ----
