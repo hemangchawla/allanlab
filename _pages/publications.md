@@ -95,8 +95,8 @@ permalink: /scientific-portfolio/
 {% for publi in site.data.publist %}
 
   <b>{{ publi.title }}</b> <br />
-  <em>{{ publi.authors }} </em> <br />
   {%- if publi.conf -%}<a href="{{ publi.conf.website}}">{{ publi.conf.name }}</a> {%- endif -%} <br />
+  <em>{{ publi.authors }} </em> <br />
   {%- if publi.linksupp -%}[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>] {%- endif -%}
   {%- if publi.linkvideo -%}[<a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a>] {%- endif -%}
   {%- if publi.linkopen -%}[<a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a>] {%- endif -%} 
