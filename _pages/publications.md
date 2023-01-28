@@ -29,7 +29,7 @@ permalink: /research-inventions/
         {% assign publi = highlights[i] %}
         {% if i == 0 %}
         <div class="item active">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_same_size/{{ publi.image }}" class="img-responsive" style="float: center;  height: 20%; " />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_same_size/{{ publi.image }}" alt= "{{publi.title}}, {{publi.link.display}}" class="img-responsive" style="float: center;  height: 20%; " />
         </div>
         {% else %}
         <div class="item">
