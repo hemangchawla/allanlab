@@ -14,8 +14,8 @@ permalink: /research-inventions/
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-      {% for i in (0..num_items) %}
-        {% assign publi = site.data.publist[i] %}
+      {% for i in (0..num_highlights) %}
+        {% assign publi = highlights[i] %}
         {% if i == 0 %}
           <li data-target="#carousel" data-slide-to="{{i}}" class="active"></li>
         {% else %}
@@ -25,8 +25,8 @@ permalink: /research-inventions/
     </ol>
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
-      {% for i in (0..num_items) %}
-        {% assign publi = site.data.publist[i] %}
+      {% for i in (0..num_highlights) %}
+        {% assign publi = highlights[i] %}
         {% if i == 0 %}
         <div class="item active">
           <div class="well">
