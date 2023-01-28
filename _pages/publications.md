@@ -8,6 +8,10 @@ permalink: /research-inventions/
 # Research and Inventions
 
 {% assign num_items = site.data.publist.size | minus: 1 %}
+{% assign num_highlights = num_items %}
+
+
+
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
