@@ -7,7 +7,7 @@
   authors: H Chawla, K Jeeveswaran, E Arani, B Zonooz
   description: "Self-supervised monocular depth estimation is a salient task for 3D scene understanding. Learned jointly with monocular ego-motion estimation, several methods have been proposed to predict accurate pixel-wise depth without using labeled data. Nevertheless, these methods focus on improving performance under ideal conditions without natural or digital corruptions. A general absence of occlusions is assumed even for object-specific depth estimation. These methods are also vulnerable to adversarial attacks, which is a pertinent concern for their reliable deployment on robots and autonomous driving systems. We propose MIMDepth, a method that adapts masked image modeling (MIM) for self-supervised monocular depth estimation. While MIM has been used to learn generalizable features during pre-training, we show how it could be adapted for direct training of monocular depth estimation. Our experiments show that MIMDepth is more robust to noise, blur, weather conditions, digital artifacts, occlusions, as well as untargeted and targeted adversarial attacks."
   link:
-    url: https://www.icra2023.org/
+    url:
     display: ICRA 2023
 #  linkvideo:
 #    url: youtu.be/ZZSVbn_Cz74
@@ -33,7 +33,7 @@
   description: "Road infrastructure maintenance inspection is typically a labor-intensive and critical task to ensure the safety of all road users. Existing state-of-the-art techniques in Artificial Intelligence (AI) for object detection and segmentation help automate a huge chunk of this task given adequate annotated data. However, annotating videos from scratch is cost-prohibitive. For instance, it can take an annotator several days to annotate a 5-minute video recorded at 30 FPS. Hence, we propose an automated labelling pipeline by leveraging techniques like few-shot learning and out-of-distribution detection to generate labels for road damage detection. In addition, our pipeline includes a risk factor assessment for each damage by instance quantification to prioritize locations for repairs which can lead to optimal deployment of road maintenance machinery. We show that the AI models trained with these techniques can not only generalize better to unseen real-world data with reduced requirement for human annotation but also provide an estimate of maintenance urgency, thereby leading to safer roads."
   authors: H Iqbal, H Chawla, A Varma, T Brouns, A Badar, E Arani, B Zonooz
   link:
-    url: https://www.irf.global/event/r2t22-dc/
+    url:
     display: IRF Global R2T 2022
 #  linkvideo:
 #    url: youtu.be/ZZSVbn_Cz74
