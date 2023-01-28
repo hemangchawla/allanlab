@@ -195,6 +195,9 @@
   link:
     url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe
     display: Thesis
+  linkopen:
+    url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe/datastream/OBJ/download
+    display: Thesis
   linkvideo:
     url: https://youtu.be/Lxnm3e6EZ2c
     display: Video

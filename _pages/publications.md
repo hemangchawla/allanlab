@@ -1,11 +1,11 @@
 ---
-title: "Hemang Chawla - Scholarly Works and Inventions"
+title: "Hemang Chawla - Research and Inventions"
 layout: gridlay
-excerpt: "Hemang Chawla -- Scholarly Works and Inventions."
+excerpt: "Hemang Chawla -- Research and Inventions."
 sitemap: false
-permalink: /scientific-portfolio/
+permalink: /research-inventions/
 ---
-# Scholarly Works and Inventions
+# Research and Inventions
 
 {% assign num_items = site.data.publist.size | minus: 1 %}
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
