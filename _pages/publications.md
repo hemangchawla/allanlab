@@ -90,7 +90,7 @@ permalink: /scientific-portfolio/
   </a>
 </div>
 
-# Conference Papers
+# Research Papers
 
 {% for publi in site.data.publist %}
 
@@ -99,11 +99,9 @@ permalink: /scientific-portfolio/
 
 {% endfor %}
 
-# Journal Papers
-
 # Patents
 
-Coming soon ...
+
 
 
 ----
