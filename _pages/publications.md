@@ -11,6 +11,8 @@ permalink: /research-inventions/
 {% assign highlights = site.data.publist | where_exp: "publi", "publi.highlight == 1" %}
 {% assign num_highlights = highlights.size | minus: 1 %}
 
+{% assign max_words = 27 %}
+
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
@@ -40,7 +42,6 @@ permalink: /research-inventions/
           {% endif %}
           </p>
           <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-          {% assign max_words = 81 %}
           <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
           <p>
           <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
@@ -67,7 +68,6 @@ permalink: /research-inventions/
           {% endif %}
           </p>
           <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-          {% assign max_words = 81 %}
           <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
           <p>
           <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
