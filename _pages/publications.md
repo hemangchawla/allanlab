@@ -43,7 +43,7 @@ permalink: /research-inventions/
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="gray-lighter"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
