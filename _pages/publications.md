@@ -8,7 +8,7 @@ permalink: /research-inventions/
 # Research and Inventions
 
 {% assign num_items = site.data.publist.size | minus: 1 %}
-{% assign num_highlights = num_items %}
+{% assign num_highlights = site.data.publist.size | minus: 1  %}
 
 {% assign highlight_items = site.data.publist %}
 
