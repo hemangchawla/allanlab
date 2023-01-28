@@ -6,18 +6,13 @@ sitemap: false
 permalink: /research-inventions/
 ---
 # Research and Inventions
-{% assign num_items = 0 %}
-{% for publi in site.data.publist %}
-  {% if publi.highlight == 1 %}
-    {% increment num_items %}
-  {% endif %}
-{% endfor %}
 
 {% assign num_items = site.data.publist.size | minus: 1 %}
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
       {% for i in (0..num_items) %}
+        {% assign publi = site.data.publist[i] %}
         {% if i == 0 %}
           <li data-target="#carousel" data-slide-to="{{i}}" class="active"></li>
         {% else %}
@@ -28,8 +23,8 @@ permalink: /research-inventions/
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
       {% for i in (0..num_items) %}
-        {% assign publi = site.data.publist[i] %} 
-        {% if publi.highlight != 1}
+        {% assign publi = site.data.publist[i] %}
+        {% if publi.highlight != 1 %}
           {% continue %}
         {% endif %}
         {% if i == 0 %}
