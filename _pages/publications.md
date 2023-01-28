@@ -30,13 +30,13 @@ permalink: /research-inventions/
         {% if i == 0 %}
         <div class="item active">
           <div class="well">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: center; object-fit: contain; height: 25%; " />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_square/{{ publi.image }}" class="img-responsive" style="float: center;  height: 25%; " />
           </div>
         </div>
         {% else %}
         <div class="item">
           <div class="well">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" style="float: left; object-fit: contain; height: 25%;" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_square/{{ publi.image }}" class="img-responsive" style="float: center; height: 25%;" />
           </div>
         </div>
         {% endif %}
