@@ -11,7 +11,7 @@ permalink: /research-inventions/
 {% assign highlights = site.data.publist | where_exp: "publi", "publi.highlight == 1" %}
 {% assign num_highlights = highlights.size | minus: 1 %}
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
       {% for i in (0..num_highlights) %}
@@ -29,11 +29,11 @@ permalink: /research-inventions/
         {% assign publi = highlights[i] %}
         {% if i == 0 %}
         <div class="item active">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_same_size/{{ publi.image }}" alt= "{{publi.title}}, {{publi.link.display}}" class="img-responsive" style="float: center;  height: 20%; " />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_same_size/{{ publi.image }}" height= "50%" alt= "{{publi.title}}, {{publi.link.display}}" class="img-responsive" style="float: center;" />
         </div>
         {% else %}
         <div class="item">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_same_size/{{ publi.image }}" class="img-responsive" style="float: center; height: 20%;" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic_same_size/{{ publi.image }}" height= "50%" alt= "{{publi.title}}, {{publi.link.display}}" class="img-responsive" style="float: center;" />
         </div>
         {% endif %}
       {% endfor %}
