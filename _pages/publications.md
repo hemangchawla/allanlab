@@ -36,7 +36,8 @@ permalink: /research-inventions/
           {% endif %}
           </p>
           <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-          <p style="text-align: justify">{{publi.description}} <a href="{{publi.link.url}}">(read more)</a></p>
+          {% assign max_words = 81 %}
+          <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
           <p>
           <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
           {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
@@ -62,7 +63,8 @@ permalink: /research-inventions/
           {% endif %}
           </p>
           <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
-          <p style="text-align: justify">{{publi.description}} <a href="{{publi.link.url}}">(read more)</a></p>
+          {% assign max_words = 81 %}
+          <p style="text-align: justify">{{publi.description | truncatewords: max_words}} <a href="{{publi.link.url}}">(read more)</a></p>
           <p>
           <!--{%- if publi.link -%}<strong>[<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>]</strong> {%- endif -%}-->
           {%- if publi.linksupp -%}<strong>[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>]</strong> {%- endif -%}
