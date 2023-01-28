@@ -1,13 +1,11 @@
 ---
-title: "Hemang Chawla - Publications"
+title: "Hemang Chawla - Scholarly Works and Inventions"
 layout: gridlay
-excerpt: "Hemang Chawla -- Publications."
+excerpt: "Hemang Chawla -- Scholarly Works and Inventions."
 sitemap: false
-permalink: /publications/
+permalink: /scientific-portfolio/
 ---
-# Publications
-
-## Highlights
+# Scholarly Works and Inventions
 
 {% assign num_items = site.data.publist.size | minus: 1 %}
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
@@ -92,7 +90,7 @@ permalink: /publications/
   </a>
 </div>
 
-# Publications
+# Conference Papers
 
 {% for publi in site.data.publist %}
 
