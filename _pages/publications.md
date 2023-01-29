@@ -72,7 +72,7 @@ permalink: /research-inventions/
   {%- if patent.published -%} Published: {{patent.published}} <br /> {%- endif -%}
   {%- if patent.granted -%} Granted: {{patent.granted}} <br /> {%- endif -%}
   {%- else -%}
-  <em>Pending</em>
+  Pending
   {% endif %}
 {% endfor %}
 
