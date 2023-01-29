@@ -48,7 +48,7 @@ permalink: /research-inventions/
   </a>
 </div>
 
-# Papers
+## Papers
 
 {% for publi in site.data.publist %}
 
@@ -63,7 +63,7 @@ permalink: /research-inventions/
 
 {% endfor %}
 
-# Patents
+## Patents
 
 {% for patent in site.data.patentlist %}
   <b>{{patent.title}}</b> <br />
