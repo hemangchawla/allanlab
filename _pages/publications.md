@@ -73,6 +73,7 @@ permalink: /research-inventions/
   {%- else -%}
   <em>Pending</em>
   {%- endif -%}
+  <br />
 {% endfor %}
 
 
