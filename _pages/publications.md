@@ -65,7 +65,15 @@ permalink: /research-inventions/
 
 # Patents
 
-
+{% for patent in site.data.patentlist %}
+  <b>{{patent.title}}</b> <br />
+  {% if patent.pending != 1 %}  
+  {% if patent.published -%} <em>Published at {{patent.published}}</em> <br /> {% endif %}
+  {% if patent.granted -%} <em>Granted at {{patent.granted}}</em> <br /> {% endif %}
+  {% else %}
+  <em>Pending</em>
+  {% endif %}
+{% endfor %}
 
 
 ----
