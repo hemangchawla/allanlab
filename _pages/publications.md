@@ -11,7 +11,7 @@ permalink: /research-inventions/
 {% assign highlights = site.data.publist | where_exp: "publi", "publi.highlight == 1" %}
 {% assign num_highlights = highlights.size | minus: 1 %}
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="" >
     <!-- Menu -->
     <ol class="carousel-indicators">
       {% for i in (0..num_highlights) %}
