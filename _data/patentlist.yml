@@ -1,16 +1,19 @@
 - title: "System and method for 3D localization of landmarks from real-world images"
+  inventors: H Chawla, M Jukola, T. Brouns, E Arani, B Zonooz
   link:
   pending: 0
   published: "CN113570662; EP3905198; US2021342589"
-  granted: "NL2025452"
+  granted: "[NL2025452](https://mijnoctrooi.rvo.nl/fo-eregister-view/search/details/2025452_NP/0/0/1/10/2/0/0/null_asc/KGlkOjIwMjU0NTJfTlApcGF0ZW50UmVjb3JkU2VxOjE=)"
 
 - title: "Computer-implemented method to improve scale consistency and/or scale awareness in a model of self-supervised depth and ego-motion prediction neural networks"
+  inventors: H Chawla, A Varma, E Arani, B Zonooz
   link:
   pending: 0
   published: "CN114494331; EP4002215; US2022156882"
   granted:
 
 - title: "Method of self-supervised learning in neural network for robust and unified estimation of monocular camera ego-motion and intrinsics"
+  inventors: A Varma, H Chawla, B Zonooz, E Arani
   link:
   pending: 1
   published:
