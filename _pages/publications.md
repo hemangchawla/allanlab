@@ -78,4 +78,7 @@ permalink: /research-inventions/
 
 
 ----
-See more at [Google Scholar](https://scholar.google.ch/citations?user=_58RpMgAAAAJ), [Semantic Scholar](https://www.semanticscholar.org/author/Hemang-Chawla/102373287), and [ResearchGate](https://www.researchgate.net/profile/Hemang-Chawla-2/research)
+See more at [Google Scholar](https://scholar.google.ch/citations?user=_58RpMgAAAAJ), 
+[Semantic Scholar](https://www.semanticscholar.org/author/Hemang-Chawla/102373287), 
+[ResearchGate](https://www.researchgate.net/profile/Hemang-Chawla-2/research),
+[ESpacenet](https://worldwide.espacenet.com/patent/search?q=in%20%3D%20%22hemang%22%20AND%20in%20%3D%20%22chawla%22%20AND%20pd%20%3E%20%222020%22%20AND%20%28ia%20any%20%22NAVINFO%22%20OR%20ia%20any%20%22Europe%22%29&queryLang=en%3Ade%3Afr)
