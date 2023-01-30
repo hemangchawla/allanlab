@@ -47,6 +47,6 @@ robot startups. I have a postgraduate in [Robotics](https://tudelftroboticsinsti
 [Dr. Bijay Rout](https://scholar.google.nl/citations?user=BH13o4YAAAAJ) at the 
 [Center for Robotics and Intelligent Systems](https://www.bits-pilani.ac.in/pilani/centreforrobotics/Home). 
 
-With an experience in both industry and academia, I bring a unique perspective to robotics and AI. I am always eager to
-take on new challenges and apply my skills developing innovative solutions to complex problems. Contact me to explore 
-how we can work together to push the boundaries of what's possible.
+With an experience in both industry and academia, I bring a unique perspective in the field of robotics and AI. 
+I am always eager to take on new challenges and apply my skills developing innovative solutions to complex problems. 
+Contact me to explore how we can work together to push the boundaries of cutting-edge technology.
