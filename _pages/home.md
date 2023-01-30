@@ -52,4 +52,4 @@ With this diverse experience, I bring a unique perspective in the field of robot
 I am always eager to take on new challenges and apply my skills developing innovative solutions to complex problems. 
 Contact me to explore how we can work together to push the boundaries of cutting-edge technology.
 
-<div align="center"><i class="fa-regular fa-user-robot"></i><i class="fa-regular fa-brain-circuit"></i><i class="fa-regular fa-microchip-ai"></i></div>
+<div align="center"><span class="fa-regular fa-user-robot"></span><span class="fa-regular fa-brain-circuit"></span><span class="fa-regular fa-microchip-ai"></span></div>
