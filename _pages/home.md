@@ -37,7 +37,8 @@ permalink: /
 Namaste, I am Hemang Chawla. I am a Computer Vision Research Engineer at the 
 [Advanced Research Lab, Navinfo Europe](https://www.navinfo.eu/expertise/artificial-intelligence/). My research 
 interests focus on the synergistic integration of 3D geometry with deep learning.  Within the AI Research lab, I have 
-worked on semantic SLAM, 3D vision, crowdsourced mapping and camera auto-calibration. 
+worked on continual learning, semantic SLAM, 3D vision, deep learning, adversarial robustness, crowdsourced mapping, 
+and camera auto-calibration. 
 
 Prior to joining NavInfo, I worked on problems in path planning, control, and SLAM for healthcare and cleaning service 
 robot startups. I have a postgraduate in [Robotics](https://tudelftroboticsinstitute.nl/) from 
