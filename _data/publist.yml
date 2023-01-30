@@ -193,7 +193,7 @@
 #  description: "This thesis presents a novel robot placement algorithm DeCOWA (Determining Commutation configuration using Optimization and Workspace Analysis) for domestic mobile manipulators. It computes a favorable position and orientation of the mobile base enabling a high chance of successful planning to target through a short path, while accounting for sensing and actuation errors typical in real world scenarios. "
   authors: H Chawla
   link:
-    url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe
+    url:
     display: Thesis
   linkopen:
     url: https://repository.tudelft.nl/islandora/object/uuid:e095b2be-c497-4de4-a55b-25126e960dbe/datastream/OBJ/download
