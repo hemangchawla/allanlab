@@ -7,8 +7,44 @@
 #- date: 09 Jul 2020
 #  headline: "Paper on 'Monocular Vision based Crowdsourced 3D Traffic Sign Positioning with Unknown Camera Intrinsics and Distortion Coefficients' mentioned on <a href='https://www.reddit.com/r/SelfDrivingCars/comments/hojjv5/monocular_vision_based_crowdsourced_3d_traffic/'>r/SelfDrivingCars</a>"
 
+- date: 17 Jan 2023
+  headline: "Paper on 'Image Masking for Robust Self-Supervised Monocular Depth Estimation' accepted at IEEE International Conference on Robotics and Automation (<a href='http://www.icra2023.org/'>ICRA</a>) 2023 for Oral Presentation."
+
+- date: 28 Dec 2022
+  headline: "Paper on 'Adversarial attacks on monocular pose estimation' is now available on <a href='https://ieeexplore.ieee.org/document/9982154'>IEEE website</a>."
+
+- date: 26 Oct 2022
+  headline: "Presented paper at IEEE/RSJ International Conference on Intelligent Robots and Systems (<a href='http://www.iros2020.org/'>IROS</a>) 2022 virtually."
+
+- date: 10 Oct 2022
+  headline: "Reviewer for IEEE International Conference on Robotics and Automation (<a href='http://www.icra2023.org/'>ICRA</a>) 2023"
+
+- date: 7 Oct 2022
+  headline: "Paper titled 'AI-Driven Road Maintenance Inspection v2: Reducing Data Dependency & Quantifying Road Damage' accepted at the International Road Federation (<a href='https://www.irf.global/'>IRF</a>) Global Roads to Tomorrow (<a href='https://www.irf.global/event/r2t22-dc/'>R2T</a>) Conference & Exhibition 2022"
+
+- date: 15 Jul 2022
+  headline: "Reviewer for Image and Vision Computing (<a href='https://www.sciencedirect.com/journal/image-and-vision-computing'>IMAVIS</a>), Elsevier journal"
+
+- date: 30 Jun 2022
+  headline: "Paper on 'Adversarial attacks on monocular pose estimation' at IEEE/RSJ International Conference on Intelligent Robots and Systems (<a href='http://www.iros2022.org/'>IROS</a>) 2022 for Oral Presentation."
+
+- date: 17 Mar 2022
+  headline: "Reviewer for the IEEE/ RSJ International Conference on Intelligent Robots and Systems (<a href='http://www.iros2022.org/'>IROS</a> 2022."
+
+- date: 16 Feb 2022
+  headline: "Paper on 'Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics' is now available on <a href='https://www.scitepress.org/Link.aspx?doi=10.5220/0010884000003124'>Scitepress</a>."
+
+- date: 08 Feb 2022
+  headline: "Presented paper on 'Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics' at (<a href='http://www.visapp.visigrapp.org/'>VISAPP</a>) 2022."
+
+- date: 13 Jan 2022
+  headline: "Candidate to best paper award - 'Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics' at (<a href='http://www.visapp.visigrapp.org/'>VISAPP</a>) 2022."
+
+- date: 07 Dec 2021
+  headline: "Paper on 'Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics' accepted to The 17th International Conference on Computer Vision Theory and Applications 2022 (<a href='http://www.visapp.visigrapp.org/'>VISAPP</a>) for Oral Presentation."
+
 - date: 09 Nov 2021
-  headline: Patent titled 'System and method for 3D positioning a landmark in images from the real world' granted (Publication number <a href='https://mijnoctrooi.rvo.nl/fo-eregister-view/search/details/2025452_NP/0/0/1/10/2/0/0/null_asc/KGlkOjIwMjU0NTJfTlApcGF0ZW50UmVjb3JkU2VxOjE='>2025452</a>) in the Netherlands.
+  headline: "Patent titled 'System and method for 3D positioning a landmark in images from the real world' granted (Publication number <a href='https://mijnoctrooi.rvo.nl/fo-eregister-view/search/details/2025452_NP/0/0/1/10/2/0/0/null_asc/KGlkOjIwMjU0NTJfTlApcGF0ZW50UmVjb3JkU2VxOjE='>2025452</a>) in the Netherlands."
 
 - date: 18 Oct 2021
   headline: "Paper on 'Multimodal Scale Consistency and Awareness for Monocular Self-Supervised Depth Estimation' is now available on <a href='https://ieeexplore.ieee.org/document/9561441'>IEEE website</a>." 

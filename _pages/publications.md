@@ -55,6 +55,7 @@ permalink: /research-inventions/
   <b>{{ publi.title }}</b> <br />
   {%- if publi.conf -%}<a href="{{ publi.conf.website}}">{{ publi.conf.name }}</a> {%- endif -%} <br />
   <em>{{ publi.authors }} </em> <br />
+  {%- if publi.link.url -%}[<a href="{{ publi.link.url }}">Camera Ready</a>] {%- endif -%}
   {%- if publi.linksupp -%}[<a href="{{ publi.linksupp.url }}">{{ publi.linksupp.display }}</a>] {%- endif -%}
   {%- if publi.linkvideo -%}[<a href="{{ publi.linkvideo.url }}">{{ publi.linkvideo.display }}</a>] {%- endif -%}
   {%- if publi.linkopen -%}[<a href="{{ publi.linkopen.url }}">{{ publi.linkopen.display }}</a>] {%- endif -%} 
