@@ -34,7 +34,9 @@ permalink: /
 -->
 </div>
 
-Namaste, I am Hemang Chawla. I am a Computer Vision Research Engineer at the 
+Namaste, I am Hemang Chawla. I am an Applied Scientist in Image Processing and Computer Vision. 
+
+I was a Computer Vision Research Engineer at the 
 [Advanced Research Lab, Navinfo Europe](https://www.navinfo.eu/expertise/artificial-intelligence/). My research 
 interests focus on the synergistic integration of 3D geometry with deep learning.  Within the AI Research lab, I have 
 worked on continual learning, semantic SLAM, 3D vision, deep learning, adversarial robustness, crowdsourced mapping, 
