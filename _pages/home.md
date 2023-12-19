@@ -34,9 +34,9 @@ permalink: /
 -->
 </div>
 
-Namaste, I am Hemang Chawla. I am an Applied Scientist in Image Processing and Computer Vision. 
+Namaste, I am Hemang Chawla. I am an Applied Scientist in Image Processing and Computer Vision at [ScanTrust](https://www.scantrust.com/) which connects billions of products across the globe. I focus on developing computer vision solutions for anti-counterfeiting; improve the user scanning experience and authentication accuracy, as part of the core-tech team.
 
-I was a Senior Computer Vision Research Engineer at the 
+Previously, I was a Senior Computer Vision Research Engineer at the 
 [Advanced Research Lab, Navinfo Europe](https://www.navinfo.eu/expertise/artificial-intelligence/). My research 
 interests focus on the synergistic integration of 3D geometry with deep learning.  Within the AI Research lab, I have 
 worked on continual learning, semantic SLAM, 3D vision, deep learning, adversarial robustness, crowdsourced mapping, 
