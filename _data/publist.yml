@@ -6,9 +6,9 @@
   image: CUDE.png
   authors: H Chawla, A Varma, E Arani, B Zonooz
   description: "Spatial scene understanding, including monocular depth estimation, is an important problem in various applications, such as robotics and autonomous driving. While improvements in unsupervised monocular depth estimation have potentially allowed models to be trained on diverse crowdsourced videos, this remains underexplored as most methods utilize the standard training protocol, wherein the models are trained from scratch on all data after new data is collected. Instead, continual training of models on sequentially collected data would significantly reduce computational and memory costs. Nevertheless, naive continual training leads to catastrophic forgetting, where the model performance deteriorates on older domains as it learns on newer domains, highlighting the trade-off between model stability and plasticity. While several techniques have been proposed to address this issue in image classification, the high-dimensional and spatiotemporally correlated outputs of depth estimation make it a distinct challenge. To the best of our knowledge, no framework or method currently exists focusing on the problem of continual learning in depth estimation. Thus, we introduce a framework that captures the challenges of continual unsupervised depth estimation (CUDE), and define the necessary metrics to evaluate model performance. We propose a rehearsal-based dual-memory method, MonoDepthCL, which utilizes spatiotemporal consistency for continual learning in depth estimation, even when the camera intrinsics are unknown."
-  link:
-    url:
-    display: WACV 2024 
+  # link:
+  #   url:
+  #   display: WACV 2024 
 #  linkvideo:
 #    url: youtu.be/ZZSVbn_Cz74
 #    display: Supplementary video
