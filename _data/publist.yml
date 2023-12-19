@@ -15,12 +15,12 @@
   linkopen:
     url: https://arxiv.org/pdf/2210.02357.pdf
     display: Arxiv
-#  linkcode:
-#    url: https://github.com/NeurAI-Lab/mono-pose-attack
-#    display: Code
-#  linkpres:
-#    url: youtu.be/fh0xVSULQSU
-#    display: Presentation
+ linkcode:
+   url: https://github.com/NeurAI-Lab/MIMDepth
+   display: Code
+ linkpres:
+   url: youtu.be/2fKlGa9VMq0
+   display: Presentation
   highlight: 1
 
 
