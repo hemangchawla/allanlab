@@ -22,6 +22,30 @@
     url: youtu.be/8N5Io65SqkU
     display: Presentation
   highlight: 1
+
+- title: "Transformers in Unsupervised Structure-from-Motion"
+  conf:
+    name: Springer Communications in Computer and Information Science (CCIS)
+    website: https://www.springer.com/series/7899
+    year: 2023
+  authors: H Chawla, A Varma, E Arani, B Zonooz
+  description: "Transformers have revolutionized deep learning based computer vision with improved performance as well as robustness to natural corruptions and adversarial attacks. Transformers are used predominantly for 2D vision tasks, including image classification, semantic segmentation, and object detection. However, robots and advanced driver assistance systems also require 3D scene understanding for decision making by extracting structure-from-motion (SfM). We propose a robust transformer-based monocular SfM method that learns to predict monocular pixel-wise depth, ego vehicle’s translation and rotation, as well as camera’s focal length and principal point, simultaneously. With experiments on KITTI and DDAD datasets, we demonstrate how to adapt different vision transformers and compare them against contemporary CNN-based methods. Our study shows that transformer-based architecture, though lower in run-time efficiency, achieves comparable performance while being more robust against natural corruptions, as well as untargeted and targeted attacks."
+  link:
+    url:
+    display: WACV 2024 
+#  linkvideo:
+#    url: youtu.be/ZZSVbn_Cz74
+#    display: Supplementary video
+  # linkopen:
+  #   url: https://arxiv.org/pdf/2311.02393.pdf 
+  #   display: Arxiv
+  linkcode:
+    url: https://github.com/NeurAI-Lab/MT-SfMLearner
+    display: Code
+  # linkpres:
+  #   url: youtu.be/8N5Io65SqkU
+  #   display: Presentation
+  highlight: 1
   
 
 - title: "Image Masking for Robust Self-Supervised Monocular Depth Estimation"
@@ -118,9 +142,9 @@
   linkopen:
     url: https://arxiv.org/pdf/2202.03131.pdf
     display: Arxiv
-#  linkcode:
-#    url: https://github.com/NeurAI-Lab/G2S
-#    display: Code
+  linkcode:
+    url: https://github.com/NeurAI-Lab/MT-SfMLearner
+    display: Code
   linkpres:
     url: youtu.be/ZZSVbn_Cz74
     display: Presentation
