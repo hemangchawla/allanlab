@@ -45,7 +45,7 @@
   # linkpres:
   #   url: youtu.be/8N5Io65SqkU
   #   display: Presentation
-  highlight: 1
+  highlight: 0
   
 
 - title: "Image Masking for Robust Self-Supervised Monocular Depth Estimation"
