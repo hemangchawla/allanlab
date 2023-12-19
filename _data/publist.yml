@@ -15,12 +15,12 @@
   linkopen:
     url: https://arxiv.org/pdf/2311.02393.pdf 
     display: Arxiv
- linkcode:
-   url: https://github.com/NeurAI-Lab/CUDE-MonoDepthCL
-   display: Code
- linkpres:
-   url: youtu.be/8N5Io65SqkU
-   display: Presentation
+  linkcode:
+    url: https://github.com/NeurAI-Lab/CUDE-MonoDepthCL
+    display: Code
+  linkpres:
+    url: youtu.be/8N5Io65SqkU
+    display: Presentation
   highlight: 1
   
 
@@ -41,12 +41,12 @@
   linkopen:
     url: https://arxiv.org/pdf/2210.02357.pdf
     display: Arxiv
- linkcode:
-   url: https://github.com/NeurAI-Lab/MIMDepth
-   display: Code
- linkpres:
-   url: youtu.be/2fKlGa9VMq0
-   display: Presentation
+  linkcode:
+    url: https://github.com/NeurAI-Lab/MIMDepth
+    display: Code
+  linkpres:
+    url: youtu.be/2fKlGa9VMq0
+    display: Presentation
   highlight: 1
 
 
