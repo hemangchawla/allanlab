@@ -30,8 +30,8 @@
     year: 2023
   authors: H Chawla, A Varma, E Arani, B Zonooz
   description: "Transformers have revolutionized deep learning based computer vision with improved performance as well as robustness to natural corruptions and adversarial attacks. Transformers are used predominantly for 2D vision tasks, including image classification, semantic segmentation, and object detection. However, robots and advanced driver assistance systems also require 3D scene understanding for decision making by extracting structure-from-motion (SfM). We propose a robust transformer-based monocular SfM method that learns to predict monocular pixel-wise depth, ego vehicle’s translation and rotation, as well as camera’s focal length and principal point, simultaneously. With experiments on KITTI and DDAD datasets, we demonstrate how to adapt different vision transformers and compare them against contemporary CNN-based methods. Our study shows that transformer-based architecture, though lower in run-time efficiency, achieves comparable performance while being more robust against natural corruptions, as well as untargeted and targeted attacks."
-  link:
-    url:
+  link: 
+    url: https://link.springer.com/chapter/10.1007/978-3-031-45725-8_14
     display: WACV 2024 
 #  linkvideo:
 #    url: youtu.be/ZZSVbn_Cz74
